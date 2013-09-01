@@ -55,78 +55,6 @@ void kb__led__logical_off(char led) {
 KEYS__LAYER__NUM_PUSH(10, 3);
 KEYS__LAYER__NUM_POP(10);
 
-void keys__press__m_alttab(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftAlt);
-    usb__kb__set_key(true, KEYBOARD__Tab);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftAlt);
-    usb__kb__set_key(false, KEYBOARD__Tab);
-}
-void R(m_alttab)(void) {}
-
-void keys__press__m_close(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftAlt);
-    usb__kb__set_key(true, KEYBOARD__F4);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftAlt);
-    usb__kb__set_key(false, KEYBOARD__F4);
-}
-void R(m_close)(void) {}
-
-void keys__press__m_copy(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__c_C);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__c_C);
-}
-void R(m_copy)(void) {}
-
-void keys__press__m_cut(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__x_X);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__x_X);
-}
-void R(m_cut)(void) {}
-
-void keys__press__m_paste(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__v_V);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__v_V);
-}
-void R(m_paste)(void) {}
-
-void keys__press__m_undo(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__z_Z);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__z_Z);
-}
-void R(m_undo)(void) {}
-
-void keys__press__m_word(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__RightArrow);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__RightArrow);
-}
-void R(m_word)(void) {}
-
-void keys__press__m_bword(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__LeftArrow);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__LeftArrow);
-}
-void R(m_bword)(void) {}
-
 
 // ----------------------------------------------------------------------------
 // layout
@@ -162,27 +90,27 @@ shL2kcap,        z,        x,        c,        v,        b,     nop,
 
 // ............................................................................
 
-    MATRIX_LAYER(  // layer 1 : function and symbol keys // TODO remove kp
+    MATRIX_LAYER(  // layer 1 : left hand macros
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
      nop,       F1,       F2,       F3,       F4,       F5,      nop,
 m_alttab,      nop,      nop,      nop,  m_close,      nop,   lpo1l1,
-     nop,   shiftL,    ctrlL,     guiL,     altL,      nop,
+     nop,    m_all,    ctrlL,     guiL,     altL,      nop,
      nop,   m_undo,    m_cut,   m_copy,  m_paste,      nop,      nop,
      nop,      nop,      nop,      nop,      nop,
                                                                  nop,      nop,
                                                        nop,      nop,      nop,
                                                        nop,      nop,      nop,
 // right hand ..... ......... ......... ......... ......... ......... .........
-             btldr,      nop,      nop,      nop,      nop,      nop,      nop,
-               nop,      nop,      nop,      nop,      nop,      nop,      nop,
-                         nop,      nop,      nop,      nop,      nop,      nop,
-               nop,      nop,      nop,      nop,      nop,      nop,      nop,
-                                   nop,      nop,      nop,      nop,      nop,
-     nop,      nop,
-     nop,      nop,      nop,
-     nop,      nop,      nop  ),
+             btldr,   transp,   transp,   transp,   transp,   transp,   transp,
+			transp,   transp,   transp,   transp,   transp,   transp,   transp,
+					  transp,   transp,   transp,   transp,   transp,   transp,
+            transp,   transp,   transp,   transp,   transp,   transp,   transp,
+                                   nop,   transp,   transp,   transp,   transp,
+  transp,   transp,
+  transp,      nop,      nop,
+  transp,   transp,   transp  ),
 
 // ............................................................................
 
