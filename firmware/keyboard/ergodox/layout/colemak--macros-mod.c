@@ -70,72 +70,95 @@ static _layout_t _layout = {
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-     esc,        1,        2,        3,        4,        5,   grave,
-     tab,        q,        w,        f,        p,        g,  lpu1l1,
-     nop,        a,        r,        s,        t,        d,
-shL2kcap,        z,        x,        c,        v,        b,     nop,
-   ctrlL,      nop,    brktL,    brktR, lpupo1l1,
+     esc,        1,        2,        3,        4,        5,    grave,
+     tab,        q,        w,        f,        p,        g, m_altspc,
+	guiL,        a,        r,        s,        t,        d,
+shL2kcap,        z,        x,        c,        v,        b,   lpu2l2,
+   ctrlL,     altL,    brktL,    brktR, lpupo1l1,
                                                                  ins,    prScr,
                                                        nop,      nop,     home,
                                                         bs,      del,      end,
 // right hand ..... ......... ......... ......... ......... ......... .........
              equal,        6,        7,        8,        9,        0,     dash,
-		    lpu2l2,        j,        l,        u,        y,  semicol,  bkslash,
+		    lpu3l3,        j,        l,        u,        y,  semicol,  bkslash,
                            h,        n,        e,        i,        o,    quote,
-               nop,        k,        m,    comma,   period,    slash, shR2kcap,
-						      lpupo2l2,   arrowL,   arrowD,   arrowR,      app,
-     nop,      nop,
+			lpu2l2,        k,        m,    comma,   period,    slash, shR2kcap,
+						      lpupo1l1,      app,      app,     altR,    ctrlR,
+ m_winLt,  m_winRt,
    pageU,      nop,      nop,
    pageD,    enter,    space  ),
 
 // ............................................................................
 
-    MATRIX_LAYER(  // layer 1 : left hand macros
+    MATRIX_LAYER(  // layer 1 : macros, navigation
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-     nop,       F1,       F2,       F3,       F4,       F5,      nop,
-m_alttab,      nop,      nop,      nop,  m_close,      nop,   lpo1l1,
-     nop,    m_all,    ctrlL,     guiL,     altL,      nop,
-     nop,   m_undo,    m_cut,   m_copy,  m_paste,      nop,      nop,
-     nop,      nop,      nop,      nop,      nop,
+ m_altF4,       F1,       F2,       F3,       F4,       F5,      nop,
+m_alttab,   m_winS,  m_ctrlW,  m_ctrlF,  m_ctrlP, m_gadget,   transp,
+  transp,  m_ctrlA,   m_winR,  m_ctrlS,  m_ctrlT,   m_altD,
+  transp,  m_ctrlZ,  m_ctrlX,  m_ctrlC,  m_ctrlV,  m_ctrlB,   transp,
+  transp,   transp,  m_winLt,  m_winRt,      nop,
                                                                  nop,      nop,
                                                        nop,      nop,      nop,
-                                                       nop,      nop,      nop,
+													 ctrlL,     altR,     guiL,
 // right hand ..... ......... ......... ......... ......... ......... .........
-             btldr,   transp,   transp,   transp,   transp,   transp,   transp,
-			transp,   transp,   transp,   transp,   transp,   transp,   transp,
-					  transp,   transp,   transp,   transp,   transp,   transp,
-            transp,   transp,   transp,   transp,   transp,   transp,   transp,
-                                   nop,   transp,   transp,   transp,   transp,
+			 btldr,       F6,       F7,       F8,       F9,      F10,      F11,
+            transp,      nop,  m_ctrlL,  m_ctrlU,  m_ctrlY,      nop,      F12,
+					 m_ctrlH, m_ctshfN,   m_winE,  m_ctrlI,  m_ctrlO,      nop,
+            transp,     home,      end,    pageU,   arrowU,    pageD,   transp,
+                                   nop,   arrowL,   arrowD,   arrowR,   transp,
+   m_cad,  m_caEnd,
+     nop,      nop,      nop,
+	guiR,     altR,    ctrlR  ),
+
+// ............................................................................
+
+    MATRIX_LAYER(  // layer 2 : numpad, hidden F#
+// macro, unused,
+       K,    nop,
+// left hand ...... ......... ......... ......... ......... ......... .........
+  transp,      nop,      nop,      nop,      nop,      nop,      nop,
+  transp,      F13,      F14,      F15,      F16,      F17,      nop,
+  transp,      F18,      F19,      F20,      F21,      F22,
+  transp,    pageU,   arrowU,    pageD,     home,      end,   lpo2l2,
+  transp,   arrowL,   arrowD,   arrowR,      nop,
+                                                                 nop,      nop,
+                                                       nop,      nop,      nop,
+                                                    transp,   transp,      nop,
+// right hand ..... ......... ......... ......... ......... ......... .........
+			transp,      nop,      num,    kpDiv,    kpMul,    kpSub,      nop,
+			transp,      nop,      kp7,      kp8,      kp9,    kpAdd,      nop,
+                         nop,      kp4,      kp5,      kp6,    kpAdd,      nop,
+			lpo2l2,      nop,      kp1,      kp2,      kp3,  kpEnter,      nop,
+                                   kp0,      nop,    kpDec,  kpEnter,      nop,
+     nop,      nop,
+     nop,      nop,      nop,
+     nop,   transp,      kp0  ),
+
+// ............................................................................
+
+    MATRIX_LAYER(  // layer 3 : gaming/qwerty
+// macro, unused,
+       K,    nop,
+// left hand ...... ......... ......... ......... ......... ......... .........
+  transp,        1,        2,        3,        4,        5,   transp,
+  transp,        q,        w,        e,        r,        t,   transp,
+  transp,        a,        s,        d,        f,        g,
+  transp,        z,        x,        c,        v,        b,   transp,
+  transp,   transp,   transp,   transp,   transp,
+                                                              transp,   transp,
+                                                       nop,      nop,   transp,
+													transp,   transp,   transp,
+// right hand ..... ......... ......... ......... ......... ......... .........
+            transp,        6,        7,        8,        9,        0,   transp,
+            lpo3l3,        y,        u,        i,        o,        p,   transp,
+                           h,        j,        k,        l,  semicol,   transp,
+            transp,        n,        m,   transp,   transp,   transp,   transp,
+                                transp,   transp,   transp,   transp,   transp,
   transp,   transp,
   transp,      nop,      nop,
   transp,   transp,   transp  ),
 
-// ............................................................................
-
-    MATRIX_LAYER(  // layer 2 :
-// macro, unused,
-       K,    nop,
-// left hand ...... ......... ......... ......... ......... ......... .........
-     nop,       F1,       F2,       F3,       F4,       F5,      esc,
-    scrl,    prScr,    pause,      nop,      nop,      nop,      nop,
-     num,      nop,  volumeU,      ins,     home,    pageU,
-    caps,     mute,  volumeD,      del,      end,    pageD,      nop,
-  transp,   transp,   transp,   transp,      nop,
-                                                              transp,   transp,
-                                                    transp,   transp,   transp,
-                                                    transp,   transp,   transp,
-// right hand ..... ......... ......... ......... ......... ......... .........
-			   nop,       F6,       F7,       F8,       F9,      F10,      F11,
-            lpu2l2,      kp7,      kp8,      kp9,    kpDiv,    kpMul,      F12,
-                         kp4,      kp5,      kp6,    kpSub,    kpAdd,  kpEnter,
-               nop,      kp1,      kp2,      kp3,    space,   arrowU,   transp,
-                                   nop,    kpDec,   arrowL,   arrowD,   arrowR,
-  transp,   transp,
-  transp,   transp,   transp,
-  transp,   transp,      kp0  ),
-
-// ............................................................................
 };
 

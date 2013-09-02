@@ -209,174 +209,258 @@ void R(shR2kcap) (void) { KF(2_keys_capslock)(false, KEYBOARD__RightShift); }
 void P(btldr) (void) { KF(jump_to_bootloader)(); }
 void R(btldr) (void) {}
 
-/**                                                      keys/macros/description
- * Common windows macros
+/**                                                      keys/alph macros/description
+ * Common windows macros - alphabetical
  *
  * Shortcut keys that can be used in place of keys
- *
- * NOT INCLUDED:
- * Keys without macros: G, J, K, M
- * Shortucts not yet included:
- * 	Win + # keys
- * 	Win + Arrow keys
  */
-void keys__press__m_all(void) {
+void keys__press__m_ctrlA(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__a_A);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__a_A);
 }
-void R(m_all)(void) {}
+void R(m_ctrlA)(void) {}
 
-void keys__press__m_bold(void) {
+void keys__press__m_ctrlB(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__b_B);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__b_B);
 }
-void R(m_bold)(void) {}
+void R(m_ctrlB)(void) {}
 
-void keys__press__m_copy(void) {
+void keys__press__m_ctrlC(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__c_C);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__c_C);
 }
-void R(m_copy)(void) {}
+void R(m_ctrlC)(void) {}
 
-void keys__press__m_explr(void) {
+void keys__press__m_altD(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftAlt);
+    usb__kb__set_key(true, KEYBOARD__d_D);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftAlt);
+    usb__kb__set_key(false, KEYBOARD__d_D);
+}
+void R(m_altD)(void) {}
+
+void keys__press__m_winE(void) {
     usb__kb__set_key(true, KEYBOARD__LeftGUI);
     usb__kb__set_key(true, KEYBOARD__e_E);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftGUI);
     usb__kb__set_key(false, KEYBOARD__e_E);
 }
-void R(m_explr)(void) {}
+void R(m_winE)(void) {}
 
-void keys__press__m_find(void) {
+void keys__press__m_ctrlF(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__f_F);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__f_F);
 }
-void R(m_find)(void) {}
+void R(m_ctrlF)(void) {}
 
-void keys__press__m_repl(void) {
+void keys__press__m_gadget(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftControl);
+	usb__kb__set_key(true, KEYBOARD__LeftGUI);
+    usb__kb__set_key(true, KEYBOARD__g_G);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftControl);
+	usb__kb__set_key(false, KEYBOARD__LeftGUI);
+    usb__kb__set_key(false, KEYBOARD__g_G);
+}
+void R(m_gadget)(void) {}
+
+void keys__press__m_ctrlH(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__h_H);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__h_H);
 }
-void R(m_repl)(void) {}
+void R(m_ctrlH)(void) {}
 
-void keys__press__m_italic(void) {
+void keys__press__m_ctrlI(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__i_I);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__i_I);
 }
-void R(m_italic)(void) {}
+void R(m_ctrlI)(void) {}
 
-// Use for Alt+D and Ctrl+L (and F6?)
-void keys__press__m_addbar(void) {
+void keys__press__m_ctrlL(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__l_L);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__l_L);
 }
-void R(m_addbar)(void) {}
+void R(m_ctrlL)(void) {}
 
-void keys__press__m_new(void) {
+void keys__press__m_ctshfN(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
+	usb__kb__set_key(true, KEYBOARD__LeftShift);
     usb__kb__set_key(true, KEYBOARD__n_N);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
+	usb__kb__set_key(false, KEYBOARD__LeftShift);
     usb__kb__set_key(false, KEYBOARD__n_N);
 }
-void R(m_new)(void) {}
+void R(m_ctshfN)(void) {}
 
-void keys__press__m_open(void) {
+void keys__press__m_ctrlO(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__o_O);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__o_O);
 }
-void R(m_open)(void) {}
+void R(m_ctrlO)(void) {}
 
-void keys__press__m_run(void) {
+void keys__press__m_ctrlP(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(true, KEYBOARD__p_P);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__p_P);
+}
+void R(m_ctrlP)(void) {}
+
+void keys__press__m_winR(void) {
     usb__kb__set_key(true, KEYBOARD__LeftGUI);
     usb__kb__set_key(true, KEYBOARD__r_R);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftGUI);
     usb__kb__set_key(false, KEYBOARD__r_R);
 }
-void R(m_run)(void) {}
+void R(m_winR)(void) {}
 
-void keys__press__m_print(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftGUI);
-    usb__kb__set_key(true, KEYBOARD__p_P);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftGUI);
-    usb__kb__set_key(false, KEYBOARD__p_P);
-}
-void R(m_print)(void) {}
-
-
-
-
-
-void keys__press__m_save(void) {
+void keys__press__m_ctrlS(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__s_S);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__s_S);
 }
-void R(m_save)(void) {}
+void R(m_ctrlS)(void) {}
 
-void keys__press__m_cut(void) {
+void keys__press__m_winS(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftGUI);
+    usb__kb__set_key(true, KEYBOARD__s_S);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftGUI);
+    usb__kb__set_key(false, KEYBOARD__s_S);
+}
+void R(m_winS)(void) {}
+
+void keys__press__m_ctrlT(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__x_X);
+    usb__kb__set_key(true, KEYBOARD__t_T);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__x_X);
+    usb__kb__set_key(false, KEYBOARD__t_T);
 }
-void R(m_cut)(void) {}
+void R(m_ctrlT)(void) {}
 
-void keys__press__m_paste(void) {
+void keys__press__m_ctrlU(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(true, KEYBOARD__u_U);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__u_U);
+}
+void R(m_ctrlU)(void) {}
+
+void keys__press__m_ctrlV(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__v_V);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__v_V);
 }
-void R(m_paste)(void) {}
+void R(m_ctrlV)(void) {}
 
-void keys__press__m_redo(void) {
+void keys__press__m_ctrlW(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(true, KEYBOARD__w_W);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__w_W);
+}
+void R(m_ctrlW)(void) {}
+
+void keys__press__m_ctrlX(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(true, KEYBOARD__x_X);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__x_X);
+}
+void R(m_ctrlX)(void) {}
+
+void keys__press__m_ctrlY(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__y_Y);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__y_Y);
 }
-void R(m_redo)(void) {}
+void R(m_ctrlY)(void) {}
 
-void keys__press__m_undo(void) {
+void keys__press__m_ctrlZ(void) {
     usb__kb__set_key(true, KEYBOARD__LeftControl);
     usb__kb__set_key(true, KEYBOARD__z_Z);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftControl);
     usb__kb__set_key(false, KEYBOARD__z_Z);
 }
-void R(m_undo)(void) {}
+void R(m_ctrlZ)(void) {}
+
+/**                                                      keys/special macros/description
+ * Common windows macros - special
+ *
+ * Shortcut keys that can be used in place of keys
+ */
+
+void keys__press__m_cad(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftAlt);
+	usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(true, KEYBOARD__DeleteForward);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftAlt);
+	usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__DeleteForward);
+}
+void R(m_cad)(void) {}
+
+void keys__press__m_caEnd(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftAlt);
+	usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(true, KEYBOARD__End);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftAlt);
+	usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__End);
+}
+void R(m_caEnd)(void) {}
+
+void keys__press__m_altspc(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftAlt);
+    usb__kb__set_key(true, KEYBOARD__Spacebar);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftAlt);
+    usb__kb__set_key(false, KEYBOARD__Spacebar);
+}
+void R(m_altspc)(void) {}
 
 void keys__press__m_alttab(void) {
     usb__kb__set_key(true, KEYBOARD__LeftAlt);
@@ -387,32 +471,42 @@ void keys__press__m_alttab(void) {
 }
 void R(m_alttab)(void) {}
 
-void keys__press__m_close(void) {
+void keys__press__m_ctrlTab(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(true, KEYBOARD__Tab);
+    usb__kb__send_report();
+    usb__kb__set_key(true, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__Tab);
+}
+void R(m_ctrlTab)(void) {}
+
+void keys__press__m_altF4(void) {
     usb__kb__set_key(true, KEYBOARD__LeftAlt);
     usb__kb__set_key(true, KEYBOARD__F4);
     usb__kb__send_report();
     usb__kb__set_key(false, KEYBOARD__LeftAlt);
     usb__kb__set_key(false, KEYBOARD__F4);
 }
-void R(m_close)(void) {}
+void R(m_altF4)(void) {}
 
-void keys__press__m_word(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
+void keys__press__m_winRt(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftGUI);
     usb__kb__set_key(true, KEYBOARD__RightArrow);
     usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__LeftGUI);
     usb__kb__set_key(false, KEYBOARD__RightArrow);
 }
-void R(m_word)(void) {}
+void R(m_winRt)(void) {}
 
-void keys__press__m_bword(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
+void keys__press__m_winLt(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftGUI);
     usb__kb__set_key(true, KEYBOARD__LeftArrow);
     usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
+    usb__kb__set_key(false, KEYBOARD__LeftGUI);
     usb__kb__set_key(false, KEYBOARD__LeftArrow);
 }
-void R(m_bword)(void) {}
+void R(m_winLt)(void) {}
+
 
 // ----------------------------------------------------------------------------
 // --- layer ------------------------------------------------------------------
