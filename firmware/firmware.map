@@ -1,0 +1,2754 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              keyboard/ergodox/layout/colemak--macros-mod.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              lib/timer/timer.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              keyboard/ergodox/led.o (__fixunssfsi)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              keyboard/ergodox/led.o (__mulsf3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                              lib/timer/timer.o (realloc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o) (memcpy)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o) (malloc)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+col                 0x1               main.o
+__flp               0x2               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+status              0x1               lib/eeprom/atmega32u4.o
+row                 0x1               main.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ .text          0x00000000        0x0 lib/timer/timer.o
+ .data          0x00000000        0x0 lib/timer/timer.o
+ .bss           0x00000000        0x0 lib/timer/timer.o
+ .text.timer__get_cycles
+                0x00000000        0x0 lib/timer/timer.o
+ .text.timer__get_keypresses
+                0x00000000        0x0 lib/timer/timer.o
+ .text.append   0x00000000        0x0 lib/timer/timer.o
+ .text.timer__schedule_keypresses
+                0x00000000        0x0 lib/timer/timer.o
+ .text.timer__schedule_cycles
+                0x00000000        0x0 lib/timer/timer.o
+ .text          0x00000000        0x0 lib/timer/device/atmega32u4.o
+ .data          0x00000000        0x0 lib/timer/device/atmega32u4.o
+ .bss           0x00000000        0x0 lib/timer/device/atmega32u4.o
+ .text          0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .data          0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .bss           0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text.write    0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text.eeprom__read
+                0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text.resize_to_write
+                0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text.eeprom__write
+                0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text.resize_to_copy
+                0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text.eeprom__copy
+                0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text.write_queued
+                0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .bss.to_write  0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .bss.to_copy   0x00000000        0x0 lib/eeprom/atmega32u4.o
+ COMMON         0x00000000        0x0 lib/eeprom/atmega32u4.o
+ .text          0x00000000        0x0 lib/twi/atmega32u4.o
+ .data          0x00000000        0x0 lib/twi/atmega32u4.o
+ .bss           0x00000000        0x0 lib/twi/atmega32u4.o
+ .text          0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .data          0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .bss           0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text.eeprom_macro__record_init
+                0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text.eeprom_macro__record_keystroke
+                0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text.eeprom_macro__record_finalize
+                0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text.eeprom_macro__exists
+                0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text.eeprom_macro__play
+                0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text.eeprom_macro__clear
+                0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text.eeprom_macro__clear_all
+                0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .eeprom        0x00000000        0x0 lib/layout/eeprom-macro/atmega32u4.o
+ .text          0x00000000        0x0 lib/layout/key-functions/basic.o
+ .data          0x00000000        0x0 lib/layout/key-functions/basic.o
+ .bss           0x00000000        0x0 lib/layout/key-functions/basic.o
+ .text.key_functions__toggle
+                0x00000000        0x0 lib/layout/key-functions/basic.o
+ .text          0x00000000        0x0 lib/layout/key-functions/special.o
+ .data          0x00000000        0x0 lib/layout/key-functions/special.o
+ .bss           0x00000000        0x0 lib/layout/key-functions/special.o
+ .text.key_functions__type_byte_hex
+                0x00000000        0x0 lib/layout/key-functions/special.o
+ .text.key_functions__type_string
+                0x00000000        0x0 lib/layout/key-functions/special.o
+ .text          0x00000000        0x0 lib/layout/key-functions/device/atmega32u4.o
+ .data          0x00000000        0x0 lib/layout/key-functions/device/atmega32u4.o
+ .bss           0x00000000        0x0 lib/layout/key-functions/device/atmega32u4.o
+ .text          0x00000000        0x0 lib/layout/layer-stack/layer-stack.o
+ .data          0x00000000        0x0 lib/layout/layer-stack/layer-stack.o
+ .bss           0x00000000        0x0 lib/layout/layer-stack/layer-stack.o
+ .text          0x00000000        0x0 keyboard/ergodox/controller.o
+ .data          0x00000000        0x0 keyboard/ergodox/controller.o
+ .bss           0x00000000        0x0 keyboard/ergodox/controller.o
+ .text          0x00000000        0x0 keyboard/ergodox/led.o
+ .data          0x00000000        0x0 keyboard/ergodox/led.o
+ .bss           0x00000000        0x0 keyboard/ergodox/led.o
+ .text.kb__led__read
+                0x00000000        0x0 keyboard/ergodox/led.o
+ .text          0x00000000        0x0 keyboard/ergodox/controller/mcp23018.o
+ .data          0x00000000        0x0 keyboard/ergodox/controller/mcp23018.o
+ .bss           0x00000000        0x0 keyboard/ergodox/controller/mcp23018.o
+ .text          0x00000000        0x0 keyboard/ergodox/controller/teensy-2-0.o
+ .data          0x00000000        0x0 keyboard/ergodox/controller/teensy-2-0.o
+ .bss           0x00000000        0x0 keyboard/ergodox/controller/teensy-2-0.o
+ .text          0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .data          0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .bss           0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__m_ctrlTab
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__numPop
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__numPush
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__mute
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__volumeD
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__volumeU
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__power
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__nonUSPound
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__nonUSBkslash
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__pause
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__scrl
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__caps
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__shiftR
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__shiftL
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__question
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__colon
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__dblQuote
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__grtrThan
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__tilde
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__plus
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__undersc
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lessThan
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__braceR
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__braceL
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__pipe
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__F24
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__F23
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__parenL
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__asterisk
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__amp
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__caret
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__percent
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__dollar
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__pound
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__at
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__exclam
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__parenR
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__Z
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__Y
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__X
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__W
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__V
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__U
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__T
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__S
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__R
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__Q
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__P
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__O
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__N
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__M
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__L
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__K
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__J
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__I
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__H
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__G
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__F
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__E
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__D
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__C
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__B
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__A
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lpupo9l9
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lpupo8l8
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lpupo7l7
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lpupo6l6
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lpupo5l5
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lpupo4l4
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__release__lpupo0l0
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__numPop
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__mute
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__volumeD
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__volumeU
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__power
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__nonUSPound
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__nonUSBkslash
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__pause
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__scrl
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__caps
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__shiftR
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__shiftL
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__question
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__colon
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__dblQuote
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__grtrThan
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__tilde
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__plus
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__undersc
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lessThan
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__braceR
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__braceL
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__pipe
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__F24
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__F23
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__parenL
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__asterisk
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__amp
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__caret
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__percent
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__dollar
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__pound
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__at
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__exclam
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__parenR
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__Z
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__Y
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__X
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__W
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__V
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__U
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__T
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__S
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__R
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__Q
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__P
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__O
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__N
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__M
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__L
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__K
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__J
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__I
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__H
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__G
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__F
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__E
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__D
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__C
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__B
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__A
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__numPush
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lpupo9l9
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lpupo8l8
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lpupo7l7
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lpupo6l6
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lpupo5l5
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lpupo4l4
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__lpupo0l0
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text.keys__press__m_ctrlTab
+                0x00000000        0x0 keyboard/ergodox/layout/colemak--macros-mod.o
+ .text          0x00000000        0x0 lib/usb/atmega32u4/general.o
+ .data          0x00000000        0x0 lib/usb/atmega32u4/general.o
+ .bss           0x00000000        0x0 lib/usb/atmega32u4/general.o
+ .text          0x00000000        0x0 lib/usb/atmega32u4/keyboard.o
+ .data          0x00000000        0x0 lib/usb/atmega32u4/keyboard.o
+ .bss           0x00000000        0x0 lib/usb/atmega32u4/keyboard.o
+ .text          0x00000000        0x0 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .data          0x00000000        0x0 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .bss           0x00000000        0x0 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+LOAD lib/timer/timer.o
+LOAD lib/timer/device/atmega32u4.o
+LOAD lib/eeprom/atmega32u4.o
+LOAD lib/twi/atmega32u4.o
+LOAD lib/layout/eeprom-macro/atmega32u4.o
+LOAD lib/layout/key-functions/basic.o
+LOAD lib/layout/key-functions/special.o
+LOAD lib/layout/key-functions/device/atmega32u4.o
+LOAD lib/layout/layer-stack/layer-stack.o
+LOAD keyboard/ergodox/controller.o
+LOAD keyboard/ergodox/led.o
+LOAD keyboard/ergodox/controller/mcp23018.o
+LOAD keyboard/ergodox/controller/teensy-2-0.o
+LOAD keyboard/ergodox/layout/colemak--macros-mod.o
+LOAD lib/usb/atmega32u4/general.o
+LOAD lib/usb/atmega32u4/keyboard.o
+LOAD lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+LOAD main.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x33ae
+ *(.vectors)
+ .vectors       0x00000000       0xac c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x000000ac      0x540 keyboard/ergodox/layout/colemak--macros-mod.o
+ .progmem.data  0x000005ec       0xf0 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x000006dc                . = ALIGN (0x2)
+                0x000006dc                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000006dc        0x0 linker stubs
+ *(.trampolines*)
+                0x000006dc                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000006dc                __ctors_start = .
+ *(.ctors)
+                0x000006dc                __ctors_end = .
+                0x000006dc                __dtors_start = .
+ *(.dtors)
+                0x000006dc                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000006dc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+                0x000006dc                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000006dc        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000006e8       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x000006e8                __do_copy_data
+ .init4         0x000006fe       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x000006fe                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000070e        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x00000716        0x2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000716                __vector_38
+                0x00000716                __vector_22
+                0x00000716                __vector_28
+                0x00000716                __vector_1
+                0x00000716                __vector_32
+                0x00000716                __vector_34
+                0x00000716                __vector_24
+                0x00000716                __vector_12
+                0x00000716                __bad_interrupt
+                0x00000716                __vector_6
+                0x00000716                __vector_31
+                0x00000716                __vector_35
+                0x00000716                __vector_39
+                0x00000716                __vector_3
+                0x00000716                __vector_23
+                0x00000716                __vector_30
+                0x00000716                __vector_25
+                0x00000716                __vector_13
+                0x00000716                __vector_17
+                0x00000716                __vector_19
+                0x00000716                __vector_7
+                0x00000716                __vector_41
+                0x00000716                __vector_27
+                0x00000716                __vector_5
+                0x00000716                __vector_33
+                0x00000716                __vector_37
+                0x00000716                __vector_4
+                0x00000716                __vector_9
+                0x00000716                __vector_2
+                0x00000716                __vector_15
+                0x00000716                __vector_36
+                0x00000716                __vector_29
+                0x00000716                __vector_40
+                0x00000716                __vector_8
+                0x00000716                __vector_26
+                0x00000716                __vector_14
+                0x00000716                __vector_16
+                0x00000716                __vector_18
+                0x00000716                __vector_20
+                0x00000716                __vector_42
+ .text          0x00000718       0x50 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000718                __fixunssfsi
+ .text          0x00000768      0x344 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000a00                __subsf3
+                0x00000a5a                __addsf3
+ .text          0x00000aac      0x1ee c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x00000aac                __mulsf3
+ .text          0x00000c9a       0x5a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x00000c9a                __gesf2
+ .text          0x00000cf4       0xa6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x00000cf4                __fixsfsi
+ .text          0x00000d9a      0x1aa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x00000d9a                __pack_f
+ .text          0x00000f44       0xf0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x00000f44                __unpack_f
+ .text          0x00001034       0xb2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00001034                __fpcmp_parts_f
+                0x000010e6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.resize   0x000010e6       0x54 lib/timer/timer.o
+ .text.pop      0x0000113a       0x5c lib/timer/timer.o
+ .text.timer___tick_keypresses
+                0x00001196       0x5e lib/timer/timer.o
+                0x00001196                timer___tick_keypresses
+ .text.timer___tick_cycles
+                0x000011f4       0x5e lib/timer/timer.o
+                0x000011f4                timer___tick_cycles
+ .text.timer__init
+                0x00001252       0x14 lib/timer/device/atmega32u4.o
+                0x00001252                timer__init
+ .text.timer__get_milliseconds
+                0x00001266        0xc lib/timer/device/atmega32u4.o
+                0x00001266                timer__get_milliseconds
+ .text.__vector_21
+                0x00001272       0x2e lib/timer/device/atmega32u4.o
+                0x00001272                __vector_21
+ .text.twi__init
+                0x000012a0       0x12 lib/twi/atmega32u4.o
+                0x000012a0                twi__init
+ .text.twi__start
+                0x000012b2       0x2e lib/twi/atmega32u4.o
+                0x000012b2                twi__start
+ .text.twi__stop
+                0x000012e0       0x10 lib/twi/atmega32u4.o
+                0x000012e0                twi__stop
+ .text.twi__send
+                0x000012f0       0x3c lib/twi/atmega32u4.o
+                0x000012f0                twi__send
+ .text.twi__read
+                0x0000132c       0x2c lib/twi/atmega32u4.o
+                0x0000132c                twi__read
+ .text.eeprom_macro__init
+                0x00001358        0x4 lib/layout/eeprom-macro/atmega32u4.o
+                0x00001358                eeprom_macro__init
+ .text.key_functions__release
+                0x0000135c        0x8 lib/layout/key-functions/basic.o
+                0x0000135c                key_functions__release
+ .text.key_functions__press
+                0x00001364        0x8 lib/layout/key-functions/basic.o
+                0x00001364                key_functions(long double *,...)(short, short)
+ .text.key_functions__toggle_capslock
+                0x0000136c       0x5a lib/layout/key-functions/special.o
+                0x0000136c                key_functions__toggle_capslock
+ .text.key_functions__jump_to_bootloader
+                0x000013c6       0x60 lib/layout/key-functions/device/atmega32u4.o
+                0x000013c6                key_functions__jump_to_bootloader
+ .text.layer_stack__peek
+                0x00001426       0x30 lib/layout/layer-stack/layer-stack.o
+                0x00001426                layer_stack__peek
+ .text.layer_stack__find_id
+                0x00001456       0x2c lib/layout/layer-stack/layer-stack.o
+                0x00001456                layer_stack__find_id
+ .text.layer_stack__size
+                0x00001482        0x6 lib/layout/layer-stack/layer-stack.o
+                0x00001482                layer_stack__size
+ .text.resize_stack
+                0x00001488       0x54 lib/layout/layer-stack/layer-stack.o
+ .text.layer_stack__pop_id
+                0x000014dc       0x62 lib/layout/layer-stack/layer-stack.o
+                0x000014dc                layer_stack__pop_id
+ .text.layer_stack__push
+                0x0000153e       0xce lib/layout/layer-stack/layer-stack.o
+                0x0000153e                layer_stack__push
+ .text.kb__update_matrix
+                0x0000160c       0x1e keyboard/ergodox/controller.o
+                0x0000160c                kb__update_matrix
+ .text.kb__init
+                0x0000162a       0x1a keyboard/ergodox/controller.o
+                0x0000162a                kb__init
+ .text.kb__led__on
+                0x00001644       0x18 keyboard/ergodox/led.o
+                0x00001644                kb__led__on
+ .text.kb__led__off
+                0x0000165c       0x18 keyboard/ergodox/led.o
+                0x0000165c                kb__led__off
+ .text.kb__led__set
+                0x00001674       0x60 keyboard/ergodox/led.o
+                0x00001674                kb__led__set
+ .text.kb__led__all_on
+                0x000016d4        0xc keyboard/ergodox/led.o
+                0x000016d4                kb__led__all_on
+ .text.kb__led__all_off
+                0x000016e0        0xc keyboard/ergodox/led.o
+                0x000016e0                kb__led__all_off
+ .text.kb__led__all_set
+                0x000016ec       0x2e keyboard/ergodox/led.o
+                0x000016ec                kb__led__all_set
+ .text.kb__led__state__power_on
+                0x0000171a        0xc keyboard/ergodox/led.o
+                0x0000171a                kb__led__state__power_on
+ .text.kb__led__state__ready
+                0x00001726        0xc keyboard/ergodox/led.o
+                0x00001726                kb__led__state__ready
+ .text.kb__led__delay__usb_init
+                0x00001732       0x5c keyboard/ergodox/led.o
+                0x00001732                kb__led__delay__usb_init
+ .text.mcp23018__init
+                0x0000178e       0x56 keyboard/ergodox/controller/mcp23018.o
+                0x0000178e                mcp23018__init
+ .text.mcp23018__update_matrix
+                0x000017e4       0xfc keyboard/ergodox/controller/mcp23018.o
+                0x000017e4                mcp23018__update_matrix
+ .text.teensy__update_matrix
+                0x000018e0      0x400 keyboard/ergodox/controller/teensy-2-0.o
+                0x000018e0                teensy__update_matrix
+ .text.teensy__init
+                0x00001ce0      0x146 keyboard/ergodox/controller/teensy-2-0.o
+                0x00001ce0                teensy__init
+ .text.key_functions__transp
+                0x00001e26        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e26                key_functions__transp
+ .text.key_functions__nop
+                0x00001e28        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e28                key_functions__nop
+ .text.keys__release__btldr
+                0x00001e2a        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e2a                keys__release__btldr
+ .text.keys__release__m_ctrlA
+                0x00001e2c        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e2c                keys__release__m_ctrlA
+ .text.keys__release__m_ctrlB
+                0x00001e2e        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e2e                keys__release__m_ctrlB
+ .text.keys__release__m_ctrlC
+                0x00001e30        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e30                keys__release__m_ctrlC
+ .text.keys__release__m_altD
+                0x00001e32        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e32                keys__release__m_altD
+ .text.keys__release__m_winE
+                0x00001e34        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e34                keys__release__m_winE
+ .text.keys__release__m_ctrlF
+                0x00001e36        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e36                keys__release__m_ctrlF
+ .text.keys__release__m_gadget
+                0x00001e38        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e38                keys__release__m_gadget
+ .text.keys__release__m_ctrlH
+                0x00001e3a        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e3a                keys__release__m_ctrlH
+ .text.keys__release__m_ctrlI
+                0x00001e3c        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e3c                keys__release__m_ctrlI
+ .text.keys__release__m_ctrlL
+                0x00001e3e        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e3e                keys__release__m_ctrlL
+ .text.keys__release__m_ctshfN
+                0x00001e40        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e40                keys__release__m_ctshfN
+ .text.keys__release__m_ctrlO
+                0x00001e42        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e42                keys__release__m_ctrlO
+ .text.keys__release__m_ctrlP
+                0x00001e44        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e44                keys__release__m_ctrlP
+ .text.keys__release__m_winR
+                0x00001e46        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e46                keys__release__m_winR
+ .text.keys__release__m_ctrlS
+                0x00001e48        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e48                keys__release__m_ctrlS
+ .text.keys__release__m_winS
+                0x00001e4a        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e4a                keys__release__m_winS
+ .text.keys__release__m_ctrlT
+                0x00001e4c        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e4c                keys__release__m_ctrlT
+ .text.keys__release__m_ctrlU
+                0x00001e4e        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e4e                keys__release__m_ctrlU
+ .text.keys__release__m_ctrlV
+                0x00001e50        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e50                keys__release__m_ctrlV
+ .text.keys__release__m_ctrlW
+                0x00001e52        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e52                keys__release__m_ctrlW
+ .text.keys__release__m_ctrlX
+                0x00001e54        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e54                keys__release__m_ctrlX
+ .text.keys__release__m_ctrlY
+                0x00001e56        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e56                keys__release__m_ctrlY
+ .text.keys__release__m_ctrlZ
+                0x00001e58        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e58                keys__release__m_ctrlZ
+ .text.keys__release__m_cad
+                0x00001e5a        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e5a                keys__release__m_cad
+ .text.keys__release__m_caEnd
+                0x00001e5c        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e5c                keys__release__m_caEnd
+ .text.keys__release__m_altspc
+                0x00001e5e        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e5e                keys__release__m_altspc
+ .text.keys__release__m_alttab
+                0x00001e60        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e60                keys__release__m_alttab
+ .text.keys__release__m_altF4
+                0x00001e62        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e62                keys__release__m_altF4
+ .text.keys__release__m_winRt
+                0x00001e64        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e64                keys__release__m_winRt
+ .text.keys__release__m_winLt
+                0x00001e66        0x2 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e66                keys__release__m_winLt
+ .text.keys__release__prScr
+                0x00001e68        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e68                keys__release(long double *, signed char, long double)
+ .text.keys__release__app
+                0x00001e6c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e6c                keys__release__app
+ .text.keys__release__num
+                0x00001e70        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e70                keys__release__num
+ .text.keys__release__guiR
+                0x00001e74        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e74                keys__release__guiR
+ .text.keys__release__guiL
+                0x00001e78        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e78                keys__release__guiL
+ .text.keys__release__ctrlR
+                0x00001e7c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e7c                keys__release__ctrlR
+ .text.keys__release__ctrlL
+                0x00001e80        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e80                keys__release__ctrlL
+ .text.keys__release__altL
+                0x00001e84        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e84                keys__release__altL
+ .text.keys__release__altR
+                0x00001e88        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e88                keys__release__altR
+ .text.keys__release__pageD
+                0x00001e8c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e8c                keys__release__pageD
+ .text.keys__release__pageU
+                0x00001e90        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e90                keys__release__pageU
+ .text.keys__release__ins
+                0x00001e94        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e94                keys__release__ins
+ .text.keys__release__home
+                0x00001e98        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e98                keys__release__home
+ .text.keys__release__esc
+                0x00001e9c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001e9c                keys__release(...)(short, char)
+ .text.keys__release__end
+                0x00001ea0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ea0                keys__release__end
+ .text.keys__release__del
+                0x00001ea4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ea4                keys__release(double,...)(long)
+ .text.keys__release__bs
+                0x00001ea8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ea8                keys__release(bool, short)
+ .text.keys__release__arrowR
+                0x00001eac        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001eac                keys__release__arrowR
+ .text.keys__release__arrowL
+                0x00001eb0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001eb0                keys__release__arrowL
+ .text.keys__release__arrowD
+                0x00001eb4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001eb4                keys__release__arrowD
+ .text.keys__release__arrowU
+                0x00001eb8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001eb8                keys__release__arrowU
+ .text.keys__release__kpDiv
+                0x00001ebc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ebc                keys__release__kpDiv
+ .text.keys__release__kpMul
+                0x00001ec0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ec0                keys__release__kpMul
+ .text.keys__release__kpSub
+                0x00001ec4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ec4                keys__release__kpSub
+ .text.keys__release__kpAdd
+                0x00001ec8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ec8                keys__release__kpAdd
+ .text.keys__release__kpDec
+                0x00001ecc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ecc                keys__release__kpDec
+ .text.keys__release__kpEnter
+                0x00001ed0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ed0                keys__release__kpEnter
+ .text.keys__release__slash
+                0x00001ed4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ed4                keys__release__slash
+ .text.keys__release__semicol
+                0x00001ed8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ed8                keys__release__semicol
+ .text.keys__release__quote
+                0x00001edc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001edc                keys__release__quote
+ .text.keys__release__period
+                0x00001ee0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ee0                keys__release__period
+ .text.keys__release__grave
+                0x00001ee4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ee4                keys__release__grave
+ .text.keys__release__equal
+                0x00001ee8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ee8                keys__release__equal
+ .text.keys__release__dash
+                0x00001eec        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001eec                keys__release__dash
+ .text.keys__release__comma
+                0x00001ef0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ef0                keys__release__comma
+ .text.keys__release__brktR
+                0x00001ef4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ef4                keys__release__brktR
+ .text.keys__release__brktL
+                0x00001ef8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ef8                keys__release__brktL
+ .text.keys__release__bkslash
+                0x00001efc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001efc                keys__release__bkslash
+ .text.keys__release__tab
+                0x00001f00        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f00                keys__release__tab
+ .text.keys__release__space
+                0x00001f04        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f04                keys__release__space
+ .text.keys__release__enter
+                0x00001f08        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f08                keys__release__enter
+ .text.keys__release__F22
+                0x00001f0c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f0c                keys__release__F22
+ .text.keys__release__F21
+                0x00001f10        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f10                keys__release__F21
+ .text.keys__release__F20
+                0x00001f14        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f14                keys__release__F20
+ .text.keys__release__F19
+                0x00001f18        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f18                keys__release__F19
+ .text.keys__release__F18
+                0x00001f1c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f1c                keys__release__F18
+ .text.keys__release__F17
+                0x00001f20        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f20                keys__release__F17
+ .text.keys__release__F16
+                0x00001f24        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f24                keys__release__F16
+ .text.keys__release__F15
+                0x00001f28        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f28                keys__release__F15
+ .text.keys__release__F14
+                0x00001f2c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f2c                keys__release__F14
+ .text.keys__release__F13
+                0x00001f30        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f30                keys__release__F13
+ .text.keys__release__F12
+                0x00001f34        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f34                keys__release__F12
+ .text.keys__release__F11
+                0x00001f38        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f38                keys__release__F11
+ .text.keys__release__F10
+                0x00001f3c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f3c                keys__release__F10
+ .text.keys__release__F9
+                0x00001f40        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f40                keys__release__F9
+ .text.keys__release__F8
+                0x00001f44        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f44                keys__release__F8
+ .text.keys__release__F7
+                0x00001f48        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f48                keys__release__F7
+ .text.keys__release__F6
+                0x00001f4c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f4c                keys__release__F6
+ .text.keys__release__F5
+                0x00001f50        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f50                keys__release__F5
+ .text.keys__release__F4
+                0x00001f54        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f54                keys__release__F4
+ .text.keys__release__F3
+                0x00001f58        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f58                keys__release__F3
+ .text.keys__release__F2
+                0x00001f5c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f5c                keys__release__F2
+ .text.keys__release__F1
+                0x00001f60        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f60                keys__release__F1
+ .text.keys__release__kp9
+                0x00001f64        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f64                keys__release__kp9
+ .text.keys__release__kp8
+                0x00001f68        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f68                keys__release__kp8
+ .text.keys__release__kp7
+                0x00001f6c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f6c                keys__release__kp7
+ .text.keys__release__kp6
+                0x00001f70        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f70                keys__release__kp6
+ .text.keys__release__kp5
+                0x00001f74        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f74                keys__release__kp5
+ .text.keys__release__kp4
+                0x00001f78        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f78                keys__release__kp4
+ .text.keys__release__kp3
+                0x00001f7c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f7c                keys__release__kp3
+ .text.keys__release__kp2
+                0x00001f80        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f80                keys__release__kp2
+ .text.keys__release__kp1
+                0x00001f84        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f84                keys__release__kp1
+ .text.keys__release__kp0
+                0x00001f88        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f88                keys__release__kp0
+ .text.keys__release__9
+                0x00001f8c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f8c                keys__release__9
+ .text.keys__release__8
+                0x00001f90        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f90                keys__release__8
+ .text.keys__release__7
+                0x00001f94        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f94                keys__release__7
+ .text.keys__release__6
+                0x00001f98        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f98                keys__release__6
+ .text.keys__release__5
+                0x00001f9c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001f9c                keys__release__5
+ .text.keys__release__4
+                0x00001fa0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fa0                keys__release__4
+ .text.keys__release__3
+                0x00001fa4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fa4                keys__release__3
+ .text.keys__release__2
+                0x00001fa8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fa8                keys__release__2
+ .text.keys__release__1
+                0x00001fac        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fac                keys__release__1
+ .text.keys__release__0
+                0x00001fb0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fb0                ::keys__release(void)
+ .text.keys__release__z
+                0x00001fb4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fb4                keys__release__z
+ .text.keys__release__y
+                0x00001fb8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fb8                keys__release__y
+ .text.keys__release__x
+                0x00001fbc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fbc                keys__release(long long)
+ .text.keys__release__w
+                0x00001fc0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fc0                keys__release(wchar_t)
+ .text.keys__release__v
+                0x00001fc4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fc4                keys__release(void)
+ .text.keys__release__u
+                0x00001fc8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fc8                keys__release(void) __restrict
+ .text.keys__release__t
+                0x00001fcc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fcc                keys__release__t
+ .text.keys__release__s
+                0x00001fd0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fd0                keys__release(short)
+ .text.keys__release__r
+                0x00001fd4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fd4                keys__release(long double)
+ .text.keys__release__q
+                0x00001fd8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fd8                keys__release__q
+ .text.keys__release__p
+                0x00001fdc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fdc                keys__release( *)
+ .text.keys__release__o
+                0x00001fe0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fe0                keys__release__o
+ .text.keys__release__n
+                0x00001fe4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fe4                keys__release__n
+ .text.keys__release__m
+                0x00001fe8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fe8                keys__release__m
+ .text.keys__release__l
+                0x00001fec        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001fec                keys__release(long)
+ .text.keys__release__k
+                0x00001ff0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ff0                keys__release__k
+ .text.keys__release__j
+                0x00001ff4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ff4                keys__release__j
+ .text.keys__release__i
+                0x00001ff8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ff8                keys__release(int)
+ .text.keys__release__h
+                0x00001ffc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00001ffc                keys__release__h
+ .text.keys__release__g
+                0x00002000        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002000                keys__release__g
+ .text.keys__release__f
+                0x00002004        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002004                keys__release(float)
+ .text.keys__release__e
+                0x00002008        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002008                keys__release(...)
+ .text.keys__release__d
+                0x0000200c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000200c                keys__release(double)
+ .text.keys__release__c
+                0x00002010        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002010                keys__release(char)
+ .text.keys__release__b
+                0x00002014        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002014                keys__release(bool)
+ .text.keys__release__a
+                0x00002018        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002018                keys__release__a
+ .text.keys__release__lpupo3l3
+                0x0000201c       0x10 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000201c                keys__release__lpupo3l3
+ .text.keys__release__lpupo2l2
+                0x0000202c       0x10 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000202c                keys__release__lpupo2l2
+ .text.keys__release__lpupo1l1
+                0x0000203c       0x10 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000203c                keys__release__lpupo1l1
+ .text.keys__press__prScr
+                0x0000204c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000204c                keys__press(long double *, signed char, long double)
+ .text.keys__press__app
+                0x00002050        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002050                keys__press__app
+ .text.keys__press__num
+                0x00002054        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002054                keys__press__num
+ .text.keys__press__guiR
+                0x00002058        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002058                keys__press__guiR
+ .text.keys__press__guiL
+                0x0000205c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000205c                keys__press__guiL
+ .text.keys__press__ctrlR
+                0x00002060        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002060                keys__press__ctrlR
+ .text.keys__press__ctrlL
+                0x00002064        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002064                keys__press__ctrlL
+ .text.keys__press__altL
+                0x00002068        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002068                keys__press__altL
+ .text.keys__press__altR
+                0x0000206c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000206c                keys__press__altR
+ .text.keys__press__pageD
+                0x00002070        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002070                keys__press__pageD
+ .text.keys__press__pageU
+                0x00002074        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002074                keys__press__pageU
+ .text.keys__press__ins
+                0x00002078        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002078                keys__press__ins
+ .text.keys__press__home
+                0x0000207c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000207c                keys__press__home
+ .text.keys__press__esc
+                0x00002080        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002080                keys__press(...)(short, char)
+ .text.keys__press__end
+                0x00002084        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002084                keys__press__end
+ .text.keys__press__del
+                0x00002088        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002088                keys__press(double,...)(long)
+ .text.keys__press__bs
+                0x0000208c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000208c                keys__press(bool, short)
+ .text.keys__press__arrowR
+                0x00002090        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002090                keys__press__arrowR
+ .text.keys__press__arrowL
+                0x00002094        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002094                keys__press__arrowL
+ .text.keys__press__arrowD
+                0x00002098        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002098                keys__press__arrowD
+ .text.keys__press__arrowU
+                0x0000209c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000209c                keys__press__arrowU
+ .text.keys__press__kpDiv
+                0x000020a0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020a0                keys__press__kpDiv
+ .text.keys__press__kpMul
+                0x000020a4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020a4                keys__press__kpMul
+ .text.keys__press__kpSub
+                0x000020a8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020a8                keys__press__kpSub
+ .text.keys__press__kpAdd
+                0x000020ac        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020ac                keys__press__kpAdd
+ .text.keys__press__kpDec
+                0x000020b0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020b0                keys__press__kpDec
+ .text.keys__press__kpEnter
+                0x000020b4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020b4                keys__press__kpEnter
+ .text.keys__press__slash
+                0x000020b8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020b8                keys__press__slash
+ .text.keys__press__semicol
+                0x000020bc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020bc                keys__press__semicol
+ .text.keys__press__quote
+                0x000020c0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020c0                keys__press__quote
+ .text.keys__press__period
+                0x000020c4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020c4                keys__press__period
+ .text.keys__press__grave
+                0x000020c8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020c8                keys__press__grave
+ .text.keys__press__equal
+                0x000020cc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020cc                keys__press__equal
+ .text.keys__press__dash
+                0x000020d0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020d0                keys__press__dash
+ .text.keys__press__comma
+                0x000020d4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020d4                keys__press__comma
+ .text.keys__press__brktR
+                0x000020d8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020d8                keys__press__brktR
+ .text.keys__press__brktL
+                0x000020dc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020dc                keys__press__brktL
+ .text.keys__press__bkslash
+                0x000020e0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020e0                keys__press__bkslash
+ .text.keys__press__tab
+                0x000020e4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020e4                keys__press__tab
+ .text.keys__press__space
+                0x000020e8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020e8                keys__press__space
+ .text.keys__press__enter
+                0x000020ec        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020ec                keys__press__enter
+ .text.keys__press__F22
+                0x000020f0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020f0                keys__press__F22
+ .text.keys__press__F21
+                0x000020f4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020f4                keys__press__F21
+ .text.keys__press__F20
+                0x000020f8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020f8                keys__press__F20
+ .text.keys__press__F19
+                0x000020fc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000020fc                keys__press__F19
+ .text.keys__press__F18
+                0x00002100        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002100                keys__press__F18
+ .text.keys__press__F17
+                0x00002104        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002104                keys__press__F17
+ .text.keys__press__F16
+                0x00002108        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002108                keys__press__F16
+ .text.keys__press__F15
+                0x0000210c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000210c                keys__press__F15
+ .text.keys__press__F14
+                0x00002110        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002110                keys__press__F14
+ .text.keys__press__F13
+                0x00002114        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002114                keys__press__F13
+ .text.keys__press__F12
+                0x00002118        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002118                keys__press__F12
+ .text.keys__press__F11
+                0x0000211c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000211c                keys__press__F11
+ .text.keys__press__F10
+                0x00002120        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002120                keys__press__F10
+ .text.keys__press__F9
+                0x00002124        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002124                keys__press__F9
+ .text.keys__press__F8
+                0x00002128        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002128                keys__press__F8
+ .text.keys__press__F7
+                0x0000212c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000212c                keys__press__F7
+ .text.keys__press__F6
+                0x00002130        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002130                keys__press__F6
+ .text.keys__press__F5
+                0x00002134        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002134                keys__press__F5
+ .text.keys__press__F4
+                0x00002138        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002138                keys__press__F4
+ .text.keys__press__F3
+                0x0000213c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000213c                keys__press__F3
+ .text.keys__press__F2
+                0x00002140        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002140                keys__press__F2
+ .text.keys__press__F1
+                0x00002144        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002144                keys__press__F1
+ .text.keys__press__kp9
+                0x00002148        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002148                keys__press__kp9
+ .text.keys__press__kp8
+                0x0000214c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000214c                keys__press__kp8
+ .text.keys__press__kp7
+                0x00002150        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002150                keys__press__kp7
+ .text.keys__press__kp6
+                0x00002154        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002154                keys__press__kp6
+ .text.keys__press__kp5
+                0x00002158        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002158                keys__press__kp5
+ .text.keys__press__kp4
+                0x0000215c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000215c                keys__press__kp4
+ .text.keys__press__kp3
+                0x00002160        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002160                keys__press__kp3
+ .text.keys__press__kp2
+                0x00002164        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002164                keys__press__kp2
+ .text.keys__press__kp1
+                0x00002168        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002168                keys__press__kp1
+ .text.keys__press__kp0
+                0x0000216c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000216c                keys__press__kp0
+ .text.keys__press__9
+                0x00002170        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002170                keys__press__9
+ .text.keys__press__8
+                0x00002174        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002174                keys__press__8
+ .text.keys__press__7
+                0x00002178        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002178                keys__press__7
+ .text.keys__press__6
+                0x0000217c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000217c                keys__press__6
+ .text.keys__press__5
+                0x00002180        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002180                keys__press__5
+ .text.keys__press__4
+                0x00002184        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002184                keys__press__4
+ .text.keys__press__3
+                0x00002188        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002188                keys__press__3
+ .text.keys__press__2
+                0x0000218c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000218c                keys__press__2
+ .text.keys__press__1
+                0x00002190        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002190                keys__press__1
+ .text.keys__press__0
+                0x00002194        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002194                ::keys__press(void)
+ .text.keys__press__z
+                0x00002198        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002198                keys__press__z
+ .text.keys__press__y
+                0x0000219c        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000219c                keys__press__y
+ .text.keys__press__x
+                0x000021a0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021a0                keys__press(long long)
+ .text.keys__press__w
+                0x000021a4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021a4                keys__press(wchar_t)
+ .text.keys__press__v
+                0x000021a8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021a8                keys__press(void)
+ .text.keys__press__u
+                0x000021ac        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021ac                keys__press(void) __restrict
+ .text.keys__press__t
+                0x000021b0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021b0                keys__press__t
+ .text.keys__press__s
+                0x000021b4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021b4                keys__press(short)
+ .text.keys__press__r
+                0x000021b8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021b8                keys__press(long double)
+ .text.keys__press__q
+                0x000021bc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021bc                keys__press__q
+ .text.keys__press__p
+                0x000021c0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021c0                keys__press( *)
+ .text.keys__press__o
+                0x000021c4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021c4                keys__press__o
+ .text.keys__press__n
+                0x000021c8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021c8                keys__press__n
+ .text.keys__press__m
+                0x000021cc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021cc                keys__press__m
+ .text.keys__press__l
+                0x000021d0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021d0                keys__press(long)
+ .text.keys__press__k
+                0x000021d4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021d4                keys__press__k
+ .text.keys__press__j
+                0x000021d8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021d8                keys__press__j
+ .text.keys__press__i
+                0x000021dc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021dc                keys__press(int)
+ .text.keys__press__h
+                0x000021e0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021e0                keys__press__h
+ .text.keys__press__g
+                0x000021e4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021e4                keys__press__g
+ .text.keys__press__f
+                0x000021e8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021e8                keys__press(float)
+ .text.keys__press__e
+                0x000021ec        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021ec                keys__press(...)
+ .text.keys__press__d
+                0x000021f0        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021f0                keys__press(double)
+ .text.keys__press__c
+                0x000021f4        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021f4                keys__press(char)
+ .text.keys__press__b
+                0x000021f8        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021f8                keys__press(bool)
+ .text.keys__press__a
+                0x000021fc        0x4 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000021fc                keys__press__a
+ .text.keys__press__lpupo3l3
+                0x00002200       0x14 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002200                keys__press__lpupo3l3
+ .text.keys__press__lpupo2l2
+                0x00002214       0x14 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002214                keys__press__lpupo2l2
+ .text.keys__press__lpupo1l1
+                0x00002228       0x14 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002228                keys__press__lpupo1l1
+ .text.keys__press__m_winLt
+                0x0000223c       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000223c                keys__press__m_winLt
+ .text.keys__press__m_winRt
+                0x00002256       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002256                keys__press__m_winRt
+ .text.keys__press__m_altF4
+                0x00002270       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002270                keys__press__m_altF4
+ .text.keys__press__m_alttab
+                0x0000228a       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000228a                keys__press__m_alttab
+ .text.keys__press__m_altspc
+                0x000022a4       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000022a4                keys__press__m_altspc
+ .text.keys__press__m_caEnd
+                0x000022be       0x26 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000022be                keys__press__m_caEnd
+ .text.keys__press__m_cad
+                0x000022e4       0x26 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000022e4                keys__press__m_cad
+ .text.keys__press__m_ctrlZ
+                0x0000230a       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000230a                keys__press__m_ctrlZ
+ .text.keys__press__m_ctrlY
+                0x00002324       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002324                keys__press__m_ctrlY
+ .text.keys__press__m_ctrlX
+                0x0000233e       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000233e                keys__press__m_ctrlX
+ .text.keys__press__m_ctrlW
+                0x00002358       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002358                keys__press__m_ctrlW
+ .text.keys__press__m_ctrlV
+                0x00002372       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002372                keys__press__m_ctrlV
+ .text.keys__press__m_ctrlU
+                0x0000238c       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000238c                keys__press__m_ctrlU
+ .text.keys__press__m_ctrlT
+                0x000023a6       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000023a6                keys__press__m_ctrlT
+ .text.keys__press__m_winS
+                0x000023c0       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000023c0                keys__press__m_winS
+ .text.keys__press__m_ctrlS
+                0x000023da       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000023da                keys__press__m_ctrlS
+ .text.keys__press__m_winR
+                0x000023f4       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000023f4                keys__press__m_winR
+ .text.keys__press__m_ctrlP
+                0x0000240e       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000240e                keys__press__m_ctrlP
+ .text.keys__press__m_ctrlO
+                0x00002428       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002428                keys__press__m_ctrlO
+ .text.keys__press__m_ctshfN
+                0x00002442       0x26 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002442                keys__press__m_ctshfN
+ .text.keys__press__m_ctrlL
+                0x00002468       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002468                keys__press__m_ctrlL
+ .text.keys__press__m_ctrlI
+                0x00002482       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002482                keys__press__m_ctrlI
+ .text.keys__press__m_ctrlH
+                0x0000249c       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000249c                keys__press__m_ctrlH
+ .text.keys__press__m_gadget
+                0x000024b6       0x26 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000024b6                keys__press__m_gadget
+ .text.keys__press__m_ctrlF
+                0x000024dc       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000024dc                keys__press__m_ctrlF
+ .text.keys__press__m_winE
+                0x000024f6       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000024f6                keys__press__m_winE
+ .text.keys__press__m_altD
+                0x00002510       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002510                keys__press__m_altD
+ .text.keys__press__m_ctrlC
+                0x0000252a       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000252a                keys__press__m_ctrlC
+ .text.keys__press__m_ctrlB
+                0x00002544       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002544                keys__press__m_ctrlB
+ .text.keys__press__m_ctrlA
+                0x0000255e       0x1a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000255e                keys__press__m_ctrlA
+ .text.keys__press__btldr
+                0x00002578        0x6 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002578                keys__press__btldr
+ .text.key_functions__2_keys_capslock
+                0x0000257e       0x44 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x0000257e                key_functions__2_keys_capslock
+ .text.keys__release__shR2kcap
+                0x000025c2        0x6 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000025c2                keys__release__shR2kcap
+ .text.keys__press__shR2kcap
+                0x000025c8        0x6 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000025c8                keys__press__shR2kcap
+ .text.keys__release__shL2kcap
+                0x000025ce        0x6 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000025ce                keys__release__shL2kcap
+ .text.keys__press__shL2kcap
+                0x000025d4        0x6 keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000025d4                keys__press__shL2kcap
+ .text.kb__led__logical_off
+                0x000025da       0x1c keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000025da                kb__led__logical_off
+ .text.kb__led__logical_on
+                0x000025f6       0x1c keyboard/ergodox/layout/colemak--macros-mod.o
+                0x000025f6                kb__led__logical_on
+ .text.kb__layout__exec_key
+                0x00002612      0x12a keyboard/ergodox/layout/colemak--macros-mod.o
+                0x00002612                kb__layout__exec_key
+ .text.usb__is_configured
+                0x0000273c        0x8 lib/usb/atmega32u4/general.o
+                0x0000273c                usb__is_configured
+ .text.usb__init
+                0x00002744        0x4 lib/usb/atmega32u4/general.o
+                0x00002744                usb__init
+ .text.usb__kb__set_key
+                0x00002748       0xec lib/usb/atmega32u4/keyboard.o
+                0x00002748                usb__kb__set_key
+ .text.usb__kb__read_key
+                0x00002834       0xca lib/usb/atmega32u4/keyboard.o
+                0x00002834                usb__kb__read_key
+ .text.usb__kb__read_led
+                0x000028fe       0x68 lib/usb/atmega32u4/keyboard.o
+                0x000028fe                usb__kb__read_led
+ .text.usb__kb__send_report
+                0x00002966        0x4 lib/usb/atmega32u4/keyboard.o
+                0x00002966                usb__kb__send_report
+ .text.usb_init
+                0x0000296a       0x2e lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x0000296a                usb_init
+ .text.usb_configured
+                0x00002998        0x6 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x00002998                usb_configured
+ .text.usb_keyboard_send
+                0x0000299e       0x90 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x0000299e                usb_keyboard_send
+ .text.__vector_10
+                0x00002a2e       0xd8 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x00002a2e                __vector_10
+ .text.__vector_11
+                0x00002b06      0x314 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x00002b06                __vector_11
+ .text.main     0x00002e1a      0x178 main.o
+                0x00002e1a                main
+ .text.libgcc   0x00002f92       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00002f92                __prologue_saves__
+ .text.libgcc   0x00002fca       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x00002fca                __epilogue_restores__
+ .text.avr-libc
+                0x00003000      0x18e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x00003000                realloc
+ .text.avr-libc
+                0x0000318e       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x0000318e                memcpy
+ .text.avr-libc
+                0x000031a0      0x20a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x000031a0                malloc
+                0x000032fa                free
+                0x000033aa                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000033aa        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x000033aa                exit
+                0x000033aa                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000033aa        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000033ae                _etext = .
+
+.data           0x00800100       0x16 load address 0x000033ae
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x00800100                __thenan_sf
+ .data          0x00800108        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x0080010a                __malloc_heap_start
+                0x0080010c                __malloc_heap_end
+                0x00800108                __malloc_margin
+ *(.data*)
+ .data._flags   0x0080010e        0x1 keyboard/ergodox/layout/colemak--macros-mod.o
+ .data.keyboard_idle_config
+                0x0080010f        0x1 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .data.keyboard_protocol
+                0x00800110        0x1 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .data.is_pressed
+                0x00800111        0x2 main.o
+                0x00800111                is_pressed
+ .data.was_pressed
+                0x00800113        0x2 main.o
+                0x00800113                was_pressed
+ .data.flags    0x00800115        0x1 main.o
+                0x00800115                flags
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800116                . = ALIGN (0x2)
+                0x00800116                _edata = .
+                0x00800116                PROVIDE (__data_end, .)
+
+.bss            0x00800116      0x125
+                0x00800116                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.cycles    0x00800116        0x6 lib/timer/timer.o
+ .bss.keypresses
+                0x0080011c        0x6 lib/timer/timer.o
+ .bss.milliseconds
+                0x00800122        0x2 lib/timer/device/atmega32u4.o
+ .bss.stack     0x00800124        0x4 lib/layout/layer-stack/layer-stack.o
+ .bss.counter.1499
+                0x00800128        0x1 keyboard/ergodox/layout/colemak--macros-mod.o
+ .bss.pressed_layer.1438
+                0x00800129       0x54 keyboard/ergodox/layout/colemak--macros-mod.o
+ .bss.keyboard_modifier_keys
+                0x0080017d        0x1 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x0080017d                keyboard_modifier_keys
+ .bss.keyboard_keys
+                0x0080017e        0x6 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x0080017e                keyboard_keys
+ .bss.keyboard_leds
+                0x00800184        0x1 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                0x00800184                keyboard_leds
+ .bss.usb_configuration
+                0x00800185        0x1 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .bss.keyboard_idle_count
+                0x00800186        0x1 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .bss.div4.1411
+                0x00800187        0x1 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+ .bss.__compound_literal.0
+                0x00800188       0x54 main.o
+ .bss.__compound_literal.1
+                0x008001dc       0x54 main.o
+ .bss.time_scan_started.1400
+                0x00800230        0x1 main.o
+ .bss.key_was_pressed.1399
+                0x00800231        0x1 main.o
+ .bss.key_is_pressed.1398
+                0x00800232        0x1 main.o
+ .bss.temp.1397
+                0x00800233        0x2 main.o
+ *(COMMON)
+ COMMON         0x00800235        0x2 main.o
+                0x00800235                col
+                0x00800236                row
+ COMMON         0x00800237        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800237                __brkval
+                0x00800239                __flp
+                0x0080023b                PROVIDE (__bss_end, .)
+                0x000033ae                __data_load_start = LOADADDR (.data)
+                0x000033c4                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080023b        0x0
+                0x0080023b                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080023b                PROVIDE (__noinit_end, .)
+                0x0080023b                _end = .
+                0x0080023b                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x100
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x00000080       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x000000a0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x000000e0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x134
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x0000008c       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x000000ac       0x22 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x000000ce       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x000000ed       0x21 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x0000010e       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_info     0x00000000     0x174b
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x27f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x00000c2f      0x2b0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x00000edf      0x12c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x0000100b      0x2df c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x000012ea      0x251 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x0000153b      0x210 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xc37
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x15a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x000005bc      0x17f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x0000073b       0xad c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x000007e8      0x1c0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x000009a8      0x154 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00000afc      0x13b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_line     0x00000000      0xc07
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f       0xd3 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x00000662      0x109 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x0000076b       0x90 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x000007fb      0x18a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000985      0x14b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00000ad0      0x137 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_frame    0x00000000      0x120
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000a0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x000000c0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x000000e0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000100       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x27d
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233        0xf c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000242        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000024c       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x00000262        0xb c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x0000026d       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+
+.debug_loc      0x00000000      0x756
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0x3c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000049e       0x7e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x0000051c      0x13e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x0000065a       0xac c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x00000706       0x50 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(firmware.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+
+Cross Reference Table
+
+Symbol                                            File
+::keys__press(void)                               keyboard/ergodox/layout/colemak--macros-mod.o
+::keys__release(void)                             keyboard/ergodox/layout/colemak--macros-mod.o
+__addsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+__bad_interrupt                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__brkval                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__bss_end                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__data_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__do_clear_bss                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  main.o
+                                                  lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+                                                  lib/layout/layer-stack/layer-stack.o
+                                                  lib/eeprom/atmega32u4.o
+                                                  lib/timer/device/atmega32u4.o
+                                                  lib/timer/timer.o
+__do_copy_data                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                                                  main.o
+                                                  lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+__epilogue_restores__                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+__fixsfsi                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+__fixunssfsi                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                                  keyboard/ergodox/led.o
+__flp                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__fpcmp_parts_f                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+__gesf2                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+__heap_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__heap_start                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__init                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__malloc_heap_end                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__malloc_heap_start                               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+__malloc_margin                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+__mulsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                                  keyboard/ergodox/led.o
+__pack_f                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+__prologue_saves__                                c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+__stack                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__subsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+__thenan_sf                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+__unpack_f                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+__vector_1                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_10                                       lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_11                                       lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_12                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_13                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_14                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_15                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_16                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_17                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_18                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_19                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_2                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_20                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_21                                       lib/timer/device/atmega32u4.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_22                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_23                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_24                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_25                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_26                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_27                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_28                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_29                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_3                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_30                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_31                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_32                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_33                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_34                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_35                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_36                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_37                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_38                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_39                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_4                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_40                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_41                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_42                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_5                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_6                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_7                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_8                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_9                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vector_default                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+__vectors                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+_exit                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+col                                               main.o
+eeprom                                            lib/layout/eeprom-macro/atmega32u4.o
+eeprom__copy                                      lib/eeprom/atmega32u4.o
+eeprom__read                                      lib/eeprom/atmega32u4.o
+eeprom__write                                     lib/eeprom/atmega32u4.o
+eeprom_macro__clear                               lib/layout/eeprom-macro/atmega32u4.o
+eeprom_macro__clear_all                           lib/layout/eeprom-macro/atmega32u4.o
+eeprom_macro__exists                              lib/layout/eeprom-macro/atmega32u4.o
+eeprom_macro__init                                lib/layout/eeprom-macro/atmega32u4.o
+                                                  keyboard/ergodox/controller.o
+eeprom_macro__play                                lib/layout/eeprom-macro/atmega32u4.o
+eeprom_macro__record_finalize                     lib/layout/eeprom-macro/atmega32u4.o
+eeprom_macro__record_init                         lib/layout/eeprom-macro/atmega32u4.o
+eeprom_macro__record_keystroke                    lib/layout/eeprom-macro/atmega32u4.o
+exit                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+flags                                             main.o
+free                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+is_pressed                                        main.o
+kb__init                                          keyboard/ergodox/controller.o
+                                                  main.o
+kb__layout__exec_key                              keyboard/ergodox/layout/colemak--macros-mod.o
+                                                  main.o
+kb__led__all_off                                  keyboard/ergodox/led.o
+                                                  keyboard/ergodox/controller/teensy-2-0.o
+kb__led__all_on                                   keyboard/ergodox/led.o
+kb__led__all_set                                  keyboard/ergodox/led.o
+kb__led__delay__usb_init                          keyboard/ergodox/led.o
+                                                  main.o
+kb__led__logical_off                              keyboard/ergodox/layout/colemak--macros-mod.o
+                                                  main.o
+kb__led__logical_on                               keyboard/ergodox/layout/colemak--macros-mod.o
+                                                  main.o
+kb__led__off                                      keyboard/ergodox/led.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+kb__led__on                                       keyboard/ergodox/led.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+kb__led__read                                     keyboard/ergodox/led.o
+kb__led__set                                      keyboard/ergodox/led.o
+kb__led__state__power_on                          keyboard/ergodox/led.o
+                                                  main.o
+kb__led__state__ready                             keyboard/ergodox/led.o
+                                                  main.o
+kb__update_matrix                                 keyboard/ergodox/controller.o
+                                                  main.o
+key_functions(long double *,...)(short, short)    lib/layout/key-functions/basic.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+key_functions__2_keys_capslock                    keyboard/ergodox/layout/colemak--macros-mod.o
+key_functions__jump_to_bootloader                 lib/layout/key-functions/device/atmega32u4.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+key_functions__nop                                keyboard/ergodox/layout/colemak--macros-mod.o
+key_functions__release                            lib/layout/key-functions/basic.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+key_functions__toggle                             lib/layout/key-functions/basic.o
+key_functions__toggle_capslock                    lib/layout/key-functions/special.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+key_functions__transp                             keyboard/ergodox/layout/colemak--macros-mod.o
+key_functions__type_byte_hex                      lib/layout/key-functions/special.o
+key_functions__type_string                        lib/layout/key-functions/special.o
+keyboard_keys                                     lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  lib/usb/atmega32u4/keyboard.o
+keyboard_leds                                     lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  lib/usb/atmega32u4/keyboard.o
+keyboard_modifier_keys                            lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  lib/usb/atmega32u4/keyboard.o
+keys__press( &)                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press( *)                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press( *)                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press()                                     keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(...)                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(...)(short, char)                     keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(__complex)                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(bool)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(bool, short)                          keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(char)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(double)                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(double,...)(long)                     keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(float)                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(int)                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(int0_t)                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(long *, short __restrict)             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(long double *, signed char, long double) keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(long double)                          keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(long long)                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(long)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(short)                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(short, char, long double, long)       keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(unsigned)                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(void)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(void)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(void) __restrict                      keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(void) const                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(void) static                          keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(void) volatile                        keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press(wchar_t)                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__1                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__2                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__3                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__4                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__5                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__6                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__7                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__8                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__9                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__A                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__B                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__D                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__E                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F1                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F10                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F11                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F12                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F13                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F14                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F15                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F16                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F17                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F18                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F19                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F2                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F20                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F21                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F22                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F23                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F24                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F3                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F4                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F5                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F6                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F7                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F8                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__F9                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__H                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__K                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__L                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__M                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__N                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__O                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__Q                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__T                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__W                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__X                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__Y                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__Z                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__a                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__altL                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__altR                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__amp                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__app                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__arrowD                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__arrowL                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__arrowR                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__arrowU                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__asterisk                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__at                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__bkslash                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__braceL                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__braceR                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__brktL                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__brktR                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__btldr                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__caps                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__caret                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__colon                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__comma                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__ctrlL                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__ctrlR                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__dash                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__dblQuote                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__dollar                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__end                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__enter                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__equal                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__exclam                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__g                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__grave                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__grtrThan                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__guiL                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__guiR                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__h                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__home                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__ins                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__j                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__k                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp0                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp1                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp2                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp3                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp4                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp5                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp6                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp7                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp8                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kp9                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kpAdd                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kpDec                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kpDiv                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kpEnter                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kpMul                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__kpSub                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lessThan                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo0l0                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo1l1                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo2l2                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo3l3                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo4l4                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo5l5                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo6l6                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo7l7                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo8l8                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__lpupo9l9                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_altD                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_altF4                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_altspc                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_alttab                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_caEnd                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_cad                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlA                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlB                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlC                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlF                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlH                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlI                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlL                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlO                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlP                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlS                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlT                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlTab                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlU                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlV                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlW                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlX                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlY                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctrlZ                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_ctshfN                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_gadget                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_winE                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_winLt                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_winR                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_winRt                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__m_winS                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__mute                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__n                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__nonUSBkslash                         keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__nonUSPound                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__num                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__numPop                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__numPush                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__o                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__pageD                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__pageU                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__parenL                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__parenR                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__pause                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__percent                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__period                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__pipe                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__pound                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__power                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__q                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__question                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__quote                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__semicol                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__shL2kcap                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__shR2kcap                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__shiftL                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__shiftR                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__slash                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__space                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__t                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__tab                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__tilde                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__undersc                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__volumeD                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__volumeU                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__y                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__press__z                                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release( &)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release( *)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release( *)                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release()                                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(...)                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(...)(short, char)                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(__complex)                          keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(bool)                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(bool, short)                        keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(char)                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(double)                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(double,...)(long)                   keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(float)                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(int)                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(int0_t)                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(long *, short __restrict)           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(long double *, signed char, long double) keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(long double)                        keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(long long)                          keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(long)                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(short)                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(short, char, long double, long)     keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(unsigned)                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(void)                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(void)                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(void) __restrict                    keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(void) const                         keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(void) static                        keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(void) volatile                      keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release(wchar_t)                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__1                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__2                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__3                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__4                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__5                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__6                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__7                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__8                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__9                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__A                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__B                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__D                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__E                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F1                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F10                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F11                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F12                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F13                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F14                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F15                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F16                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F17                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F18                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F19                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F2                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F20                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F21                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F22                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F23                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F24                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F3                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F4                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F5                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F6                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F7                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F8                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__F9                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__H                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__K                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__L                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__M                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__N                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__O                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__Q                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__T                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__W                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__X                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__Y                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__Z                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__a                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__altL                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__altR                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__amp                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__app                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__arrowD                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__arrowL                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__arrowR                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__arrowU                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__asterisk                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__at                                 keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__bkslash                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__braceL                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__braceR                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__brktL                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__brktR                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__btldr                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__caps                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__caret                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__colon                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__comma                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__ctrlL                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__ctrlR                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__dash                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__dblQuote                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__dollar                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__end                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__enter                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__equal                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__exclam                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__g                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__grave                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__grtrThan                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__guiL                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__guiR                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__h                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__home                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__ins                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__j                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__k                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp0                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp1                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp2                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp3                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp4                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp5                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp6                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp7                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp8                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kp9                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kpAdd                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kpDec                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kpDiv                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kpEnter                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kpMul                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__kpSub                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lessThan                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo0l0                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo1l1                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo2l2                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo3l3                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo4l4                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo5l5                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo6l6                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo7l7                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo8l8                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__lpupo9l9                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_altD                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_altF4                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_altspc                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_alttab                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_caEnd                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_cad                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlA                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlB                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlC                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlF                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlH                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlI                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlL                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlO                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlP                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlS                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlT                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlTab                          keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlU                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlV                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlW                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlX                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlY                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctrlZ                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_ctshfN                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_gadget                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_winE                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_winLt                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_winR                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_winRt                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__m_winS                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__mute                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__n                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__nonUSBkslash                       keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__nonUSPound                         keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__num                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__numPop                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__numPush                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__o                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__pageD                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__pageU                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__parenL                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__parenR                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__pause                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__percent                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__period                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__pipe                               keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__pound                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__power                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__q                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__question                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__quote                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__semicol                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__shL2kcap                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__shR2kcap                           keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__shiftL                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__shiftR                             keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__slash                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__space                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__t                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__tab                                keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__tilde                              keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__undersc                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__volumeD                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__volumeU                            keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__y                                  keyboard/ergodox/layout/colemak--macros-mod.o
+keys__release__z                                  keyboard/ergodox/layout/colemak--macros-mod.o
+layer_stack__find_id                              lib/layout/layer-stack/layer-stack.o
+layer_stack__peek                                 lib/layout/layer-stack/layer-stack.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+layer_stack__pop_id                               lib/layout/layer-stack/layer-stack.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+layer_stack__push                                 lib/layout/layer-stack/layer-stack.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+layer_stack__size                                 lib/layout/layer-stack/layer-stack.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+main                                              main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32u4.o
+malloc                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(malloc.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+mcp23018__init                                    keyboard/ergodox/controller/mcp23018.o
+                                                  keyboard/ergodox/controller.o
+mcp23018__update_matrix                           keyboard/ergodox/controller/mcp23018.o
+                                                  keyboard/ergodox/controller.o
+memcpy                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+realloc                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(realloc.o)
+                                                  lib/layout/layer-stack/layer-stack.o
+                                                  lib/eeprom/atmega32u4.o
+                                                  lib/timer/timer.o
+row                                               main.o
+status                                            lib/eeprom/atmega32u4.o
+teensy__init                                      keyboard/ergodox/controller/teensy-2-0.o
+                                                  keyboard/ergodox/controller.o
+teensy__update_matrix                             keyboard/ergodox/controller/teensy-2-0.o
+                                                  keyboard/ergodox/controller.o
+timer___tick_cycles                               lib/timer/timer.o
+                                                  main.o
+timer___tick_keypresses                           lib/timer/timer.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+timer__get_cycles                                 lib/timer/timer.o
+timer__get_keypresses                             lib/timer/timer.o
+timer__get_milliseconds                           lib/timer/device/atmega32u4.o
+                                                  main.o
+timer__init                                       lib/timer/device/atmega32u4.o
+                                                  main.o
+timer__schedule_cycles                            lib/timer/timer.o
+                                                  lib/eeprom/atmega32u4.o
+timer__schedule_keypresses                        lib/timer/timer.o
+twi__init                                         lib/twi/atmega32u4.o
+                                                  keyboard/ergodox/controller/teensy-2-0.o
+twi__read                                         lib/twi/atmega32u4.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+twi__send                                         lib/twi/atmega32u4.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+twi__start                                        lib/twi/atmega32u4.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+twi__stop                                         lib/twi/atmega32u4.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+usb__init                                         lib/usb/atmega32u4/general.o
+                                                  main.o
+usb__is_configured                                lib/usb/atmega32u4/general.o
+                                                  main.o
+usb__kb__read_key                                 lib/usb/atmega32u4/keyboard.o
+                                                  lib/layout/key-functions/special.o
+                                                  lib/layout/key-functions/basic.o
+usb__kb__read_led                                 lib/usb/atmega32u4/keyboard.o
+                                                  main.o
+usb__kb__send_report                              lib/usb/atmega32u4/keyboard.o
+                                                  main.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+                                                  lib/layout/key-functions/special.o
+usb__kb__set_key                                  lib/usb/atmega32u4/keyboard.o
+                                                  keyboard/ergodox/layout/colemak--macros-mod.o
+                                                  lib/layout/key-functions/special.o
+                                                  lib/layout/key-functions/basic.o
+usb_configured                                    lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  lib/usb/atmega32u4/general.o
+usb_init                                          lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  lib/usb/atmega32u4/general.o
+usb_keyboard_send                                 lib/usb/atmega32u4/keyboard/from-pjrc/usb_keyboard.o
+                                                  lib/usb/atmega32u4/keyboard.o
+was_pressed                                       main.o
