@@ -462,24 +462,6 @@ void keys__press__m_altspc(void) {
 }
 void R(m_altspc)(void) {}
 
-void keys__press__m_alttab(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftAlt);
-    usb__kb__set_key(true, KEYBOARD__Tab);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftAlt);
-    usb__kb__set_key(false, KEYBOARD__Tab);
-}
-void R(m_alttab)(void) {}
-
-void keys__press__m_ctrlTab(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__Tab);
-    usb__kb__send_report();
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__Tab);
-}
-void R(m_ctrlTab)(void) {}
-
 void keys__press__m_altF4(void) {
     usb__kb__set_key(true, KEYBOARD__LeftAlt);
     usb__kb__set_key(true, KEYBOARD__F4);
