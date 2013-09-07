@@ -164,6 +164,7 @@ void KF(2_keys_capslock)(bool pressed, uint8_t keycode) {
     }
 }
 
+
 // ----------------------------------------------------------------------------
 
 // --- default key definitions ------------------------------------------------
@@ -209,222 +210,6 @@ void R(shR2kcap) (void) { KF(2_keys_capslock)(false, KEYBOARD__RightShift); }
 void P(btldr) (void) { KF(jump_to_bootloader)(); }
 void R(btldr) (void) {}
 
-/**                                                      keys/alph macros/description
- * Common windows macros - alphabetical
- *
- * Shortcut keys that can be used in place of keys
- */
-void keys__press__m_ctrlA(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__a_A);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__a_A);
-}
-void R(m_ctrlA)(void) {}
-
-void keys__press__m_ctrlB(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__b_B);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__b_B);
-}
-void R(m_ctrlB)(void) {}
-
-void keys__press__m_ctrlC(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__c_C);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__c_C);
-}
-void R(m_ctrlC)(void) {}
-
-void keys__press__m_altD(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftAlt);
-    usb__kb__set_key(true, KEYBOARD__d_D);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftAlt);
-    usb__kb__set_key(false, KEYBOARD__d_D);
-}
-void R(m_altD)(void) {}
-
-void keys__press__m_winE(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftGUI);
-    usb__kb__set_key(true, KEYBOARD__e_E);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftGUI);
-    usb__kb__set_key(false, KEYBOARD__e_E);
-}
-void R(m_winE)(void) {}
-
-void keys__press__m_ctrlF(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__f_F);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__f_F);
-}
-void R(m_ctrlF)(void) {}
-
-void keys__press__m_gadget(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-	usb__kb__set_key(true, KEYBOARD__LeftGUI);
-    usb__kb__set_key(true, KEYBOARD__g_G);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-	usb__kb__set_key(false, KEYBOARD__LeftGUI);
-    usb__kb__set_key(false, KEYBOARD__g_G);
-}
-void R(m_gadget)(void) {}
-
-void keys__press__m_ctrlH(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__h_H);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__h_H);
-}
-void R(m_ctrlH)(void) {}
-
-void keys__press__m_ctrlI(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__i_I);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__i_I);
-}
-void R(m_ctrlI)(void) {}
-
-void keys__press__m_ctrlL(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__l_L);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__l_L);
-}
-void R(m_ctrlL)(void) {}
-
-void keys__press__m_ctshfN(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-	usb__kb__set_key(true, KEYBOARD__LeftShift);
-    usb__kb__set_key(true, KEYBOARD__n_N);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-	usb__kb__set_key(false, KEYBOARD__LeftShift);
-    usb__kb__set_key(false, KEYBOARD__n_N);
-}
-void R(m_ctshfN)(void) {}
-
-void keys__press__m_ctrlO(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__o_O);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__o_O);
-}
-void R(m_ctrlO)(void) {}
-
-void keys__press__m_ctrlP(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__p_P);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__p_P);
-}
-void R(m_ctrlP)(void) {}
-
-void keys__press__m_winR(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftGUI);
-    usb__kb__set_key(true, KEYBOARD__r_R);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftGUI);
-    usb__kb__set_key(false, KEYBOARD__r_R);
-}
-void R(m_winR)(void) {}
-
-void keys__press__m_ctrlS(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__s_S);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__s_S);
-}
-void R(m_ctrlS)(void) {}
-
-void keys__press__m_winS(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftGUI);
-    usb__kb__set_key(true, KEYBOARD__s_S);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftGUI);
-    usb__kb__set_key(false, KEYBOARD__s_S);
-}
-void R(m_winS)(void) {}
-
-void keys__press__m_ctrlT(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__t_T);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__t_T);
-}
-void R(m_ctrlT)(void) {}
-
-void keys__press__m_ctrlU(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__u_U);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__u_U);
-}
-void R(m_ctrlU)(void) {}
-
-void keys__press__m_ctrlV(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__v_V);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__v_V);
-}
-void R(m_ctrlV)(void) {}
-
-void keys__press__m_ctrlW(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__w_W);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__w_W);
-}
-void R(m_ctrlW)(void) {}
-
-void keys__press__m_ctrlX(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__x_X);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__x_X);
-}
-void R(m_ctrlX)(void) {}
-
-void keys__press__m_ctrlY(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__y_Y);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__y_Y);
-}
-void R(m_ctrlY)(void) {}
-
-void keys__press__m_ctrlZ(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftControl);
-    usb__kb__set_key(true, KEYBOARD__z_Z);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftControl);
-    usb__kb__set_key(false, KEYBOARD__z_Z);
-}
-void R(m_ctrlZ)(void) {}
-
 /**                                                      keys/special macros/description
  * Common windows macros - special
  *
@@ -453,15 +238,6 @@ void keys__press__m_caEnd(void) {
 }
 void R(m_caEnd)(void) {}
 
-void keys__press__m_altspc(void) {
-    usb__kb__set_key(true, KEYBOARD__LeftAlt);
-    usb__kb__set_key(true, KEYBOARD__Spacebar);
-    usb__kb__send_report();
-    usb__kb__set_key(false, KEYBOARD__LeftAlt);
-    usb__kb__set_key(false, KEYBOARD__Spacebar);
-}
-void R(m_altspc)(void) {}
-
 void keys__press__m_altF4(void) {
     usb__kb__set_key(true, KEYBOARD__LeftAlt);
     usb__kb__set_key(true, KEYBOARD__F4);
@@ -488,6 +264,15 @@ void keys__press__m_winLt(void) {
     usb__kb__set_key(false, KEYBOARD__LeftArrow);
 }
 void R(m_winLt)(void) {}
+
+void keys__press__m_winUp(void) {
+    usb__kb__set_key(true, KEYBOARD__LeftGUI);
+    usb__kb__set_key(true, KEYBOARD__UpArrow);
+    usb__kb__send_report();
+    usb__kb__set_key(false, KEYBOARD__LeftGUI);
+    usb__kb__set_key(false, KEYBOARD__UpArrow);
+}
+void R(m_winUp)(void) {}
 
 
 // ----------------------------------------------------------------------------
@@ -558,6 +343,51 @@ KEYS__LAYER__PUSH_POP(9, 9);
 
 
 // ----------------------------------------------------------------------------
+
+/**                                       functions/KF(Space_Tap_Key)/description
+ * Press the given keycode, and also press "capslock" if this is the second
+ * consecutive time this function has been called with `pressed == true`.
+ *
+ * Meant to be used with the left and right "shift" keys.
+ */
+bool space_tap_key__held;
+bool space_tap_key__has_been_released;
+
+ // this happens after 40 cycles ~= 200 milliseconds
+// (whether the key has been released or not)
+void KF(space_tap_key)(void){
+    if (!space_tap_key__has_been_released) {
+        space_tap_key__held = true;
+        // perform the "held" press function
+        P(lpupo1l1);
+    }
+}
+
+// this happens first
+void P(space_tap_key)(void){
+    space_tap_key__held = false;
+    space_tap_key__has_been_released = false;
+    timer__schedule_cycles(40, &KF(space_tap_key));
+}
+
+// this happens when the key is released
+// (whether the scheduled function has run or not)
+// (but the scheduled function is not occurring within an interrupt, so we
+//  don't have to worry about race conditions inside this one)
+void R(space_tap_key)(void){
+    if (space_tap_key__held) {
+        // release the "held" function
+        R(lpupo1l1);
+    } else {
+        // press the "tapped" function
+        KF(press)(KEYBOARD__Spacebar);
+        // (send the report)
+        usb__kb__send_report();
+        // then release it
+        KF(release)(KEYBOARD__Spacebar);
+    }
+    space_tap_key__has_been_released = true;
+}
 // ----------------------------------------------------------------------------
 #endif  // ERGODOX_FIRMWARE__KEYBOARD__ERGODOX__LAYOUT__COMMON__KEYS__C__H
 
