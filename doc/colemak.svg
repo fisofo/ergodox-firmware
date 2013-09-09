@@ -28,19 +28,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="678.86283"
-     inkscape:cy="436.37754"
+     inkscape:cx="497.90403"
+     inkscape:cy="458.24604"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-bbox="false"
      units="in"
      width="11in"
-     inkscape:window-width="944"
-     inkscape:window-height="1122"
-     inkscape:window-x="960"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
@@ -166,7 +166,7 @@
          id="tspan3787-1-8"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">Pg Up</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -230,7 +230,7 @@
          id="tspan3787-1-0"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">Pg Dn</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -550,7 +550,7 @@
          id="tspan3787-1-8-8-3"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">Pg Up</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -796,17 +796,16 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="186.12061"
-       y="73.019287"
+       x="743.74078"
+       y="576.51221"
        id="txt00L1-1-1-4"
        sodipodi:linespacing="125%"
-       transform="translate(557.62019,501.49293)"
        inkscape:label="#text3785-8"><tspan
          sodipodi:role="line"
          id="tspan3787-1-8-8-1"
-         x="186.12061"
-         y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">[ {</tspan></text>
+         x="743.74078"
+         y="576.51221"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">Ins</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1062,7 +1061,7 @@
          id="tspan3787-1-8-8-8"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">] }</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">Pg Dn</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1254,7 +1253,7 @@
          id="tspan3787-1-0-60"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">= +</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1510,7 +1509,7 @@
          id="tspan3787-1-8-8-8-9"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">Red?</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1624,7 +1623,7 @@
          id="tspan3787-8"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">Mute</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">= +</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1638,7 +1637,7 @@
          id="tspan3787-1-47"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">BTLDR</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1688,7 +1687,7 @@
          x="186.12061"
          y="73.019287"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New"
-         id="tspan6104">Vol ▲</tspan></text>
+         id="tspan6104">[ {</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1752,7 +1751,7 @@
          id="tspan3787-5-7-9"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">Vol ▼</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">] }</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1898,7 +1897,7 @@
          id="tspan3787-1-8-8-5-2-0"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">= +</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1926,7 +1925,7 @@
          id="tspan3787-1-4-6-6-1-2-8"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">+</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:1.00453544;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2985-0-5-5-0-9"
@@ -1950,20 +1949,20 @@
          id="tspan3787-5-7-60-4-6"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">- _</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">\ |</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="881.74078"
-       y="494.51221"
+       y="492.51221"
        id="txt00L1-1-1-1-6-5"
        sodipodi:linespacing="125%"
        inkscape:label="#text3785-8"><tspan
          sodipodi:role="line"
          id="tspan3787-1-8-8-5-2-3"
          x="881.74078"
-         y="494.51221"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">\ |</tspan></text>
+         y="492.51221"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F12</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1991,7 +1990,7 @@
          id="tspan3787-1-4-6-6-1-2-0"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">+</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:1.00453544;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2985-0-5-5-0-8-0"
@@ -2015,7 +2014,7 @@
          id="tspan3787-5-7-60-4-4-1"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">F11</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">- _</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2028,7 +2027,7 @@
          id="tspan3787-1-8-8-5-2-0-7"
          x="881.74078"
          y="448.51221"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F12</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F11</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2056,7 +2055,7 @@
          id="tspan3787-1-4-6-6-1-2-8-2"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">-</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2985-0-5-8-8-9"
@@ -2223,7 +2222,7 @@
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L2-1-1-9"
@@ -2234,10 +2233,10 @@
          id="tspan3787-4-0-1-9"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New"> </tspan></text>
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
-       style="font-size:10.99999998000000000px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L3-2-5-4"
@@ -2248,7 +2247,7 @@
          id="tspan3787-1-4-3-47-6"
          x="186.12061"
          y="73.019287"
-         style="font-size:10.99999998000000000px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">~Blue~</tspan></text>
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">«Red»</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2985-2-7-2"
@@ -2467,17 +2466,17 @@
          x="186.12061"
          y="73.019287"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New"
-         id="tspan3719"> </tspan><tspan
+         id="tspan3727"> </tspan><tspan
          sodipodi:role="line"
          x="186.12061"
          y="88.019287"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New"
-         id="tspan3729"> Win</tspan><tspan
+         id="tspan3721"> Win</tspan><tspan
          sodipodi:role="line"
          x="186.12061"
          y="103.01929"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New"
-         id="tspan3727">  ▼</tspan></text>
+         id="tspan3718">  ▼</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2505,7 +2504,7 @@
          id="tspan3787-4-3-3-0-4-3"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New"> </tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2683,7 +2682,7 @@
          id="tspan3787-1-0-8"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F5</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2736,7 +2735,7 @@
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">B</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L1-1-1-69"
@@ -2747,7 +2746,7 @@
          id="tspan3787-1-8-8-6"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2939,7 +2938,7 @@
          id="tspan3787-1-0-1-3"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F4</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -2992,7 +2991,7 @@
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">V</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L1-1-1-8-9"
@@ -3003,7 +3002,7 @@
          id="tspan3787-1-8-8-3-8"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -3195,7 +3194,7 @@
          id="tspan3787-1-0-12-3"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F3</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -3248,7 +3247,7 @@
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">C</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L1-1-1-4-3"
@@ -3259,7 +3258,7 @@
          id="tspan3787-1-8-8-1-2"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -3451,7 +3450,7 @@
          id="tspan3787-1-0-6-0"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F2</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -3504,7 +3503,7 @@
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">X</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L1-1-1-7-2"
@@ -3515,7 +3514,7 @@
          id="tspan3787-1-8-8-8-8"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -3707,7 +3706,7 @@
          id="tspan3787-1-0-60-0"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">F1</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -3824,7 +3823,7 @@
          id="tspan6065">Ctrl</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:10px;font-style:oblique;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Courier New Oblique"
        x="186.12061"
        y="73.019287"
        id="txt00L1-1-1-8-0-8"
@@ -3835,7 +3834,7 @@
          id="tspan3787-1-8-8-3-2-5"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
+         style="font-size:12px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New Oblique" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -4194,7 +4193,7 @@
        transform="matrix(-0.94178346,0,0,1.4582788,549.03875,444.43534)" />
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L0-6-2-23-2"
@@ -4204,8 +4203,8 @@
          sodipodi:role="line"
          x="186.12061"
          y="73.019287"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff00ff;font-family:Courier New;-inkscape-font-specification:Courier New"
-         id="tspan6069" /></text>
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="tspan6069">Gadget</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -4233,7 +4232,7 @@
          id="tspan3787-4-3-3-02-5"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">«Red»</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -4614,7 +4613,7 @@
          id="tspan3787-0-1-4-0"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">PrnSc</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">Vol ▼</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -4630,7 +4629,7 @@
          id="tspan3787-1-0-12-9-4"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New">BTLDR</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -4673,7 +4672,7 @@
        transform="matrix(-0.86197776,-0.37940798,-0.37940798,0.86197776,638.43721,680.10698)" />
     <text
        xml:space="preserve"
-       style="font-size:11.00000003px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:12.00000003px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L0-6-2-1-3-3"
@@ -4683,15 +4682,10 @@
        inkscape:transform-center-x="-37.612844"
        inkscape:transform-center-y="-69.647613"><tspan
          sodipodi:role="line"
-         id="tspan3787-5-7-8-3-9"
          x="186.12061"
          y="73.019287"
-         style="font-size:11.00000003px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">Hotkey</tspan><tspan
-         sodipodi:role="line"
-         x="186.12061"
-         y="85.519287"
-         style="font-size:11.00000003px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New"
-         id="tspan3720">Reset</tspan></text>
+         style="font-size:12.00000003px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New"
+         id="tspan3720">PrnSc</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -4822,7 +4816,7 @@
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;fill-opacity:1;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:12.00000003px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="186.12061"
        y="73.019287"
        id="txt00L0-4-3-2-4-6"
@@ -4835,7 +4829,7 @@
          id="tspan3787-0-1-4-0-1"
          x="186.12061"
          y="73.019287"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">Gadget</tspan></text>
+         style="font-size:12.00000003px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">Vol ▲</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Sans"
@@ -4899,7 +4893,7 @@
          id="tspan3787-5-7-8-3-9-4"
          x="186.12061"
          y="73.019287"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New"> Del</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Courier New">Del</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"

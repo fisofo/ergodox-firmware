@@ -215,6 +215,50 @@ void R(btldr) (void) {}
  *
  * Shortcut keys that can be used in place of keys
  */
+void keys__press__m_ctrlB(void) {
+	usb__kb__set_key(true, KEYBOARD__LeftControl);
+	usb__kb__set_key(true, KEYBOARD__b_B);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYBOARD__LeftControl);
+	usb__kb__set_key(false, KEYBOARD__b_B);
+}
+void R(m_ctrlB)(void) {}
+
+void keys__press__m_ctrlC(void) {
+	usb__kb__set_key(true, KEYBOARD__LeftControl);
+	usb__kb__set_key(true, KEYBOARD__c_C);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYBOARD__LeftControl);
+	usb__kb__set_key(false, KEYBOARD__c_C);
+}
+void R(m_ctrlC)(void) {}
+
+void keys__press__m_ctrlV(void) {
+	usb__kb__set_key(true, KEYBOARD__LeftControl);
+	usb__kb__set_key(true, KEYBOARD__v_V);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYBOARD__LeftControl);
+	usb__kb__set_key(false, KEYBOARD__v_V);
+}
+void R(m_ctrlV)(void) {}
+
+void keys__press__m_ctrlX(void) {
+	usb__kb__set_key(true, KEYBOARD__LeftControl);
+	usb__kb__set_key(true, KEYBOARD__x_X);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYBOARD__LeftControl);
+	usb__kb__set_key(false, KEYBOARD__x_X);
+}
+void R(m_ctrlX)(void) {}
+
+void keys__press__m_ctrlZ(void) {
+	usb__kb__set_key(true, KEYBOARD__LeftControl);
+	usb__kb__set_key(true, KEYBOARD__z_Z);
+	usb__kb__send_report();
+	usb__kb__set_key(false, KEYBOARD__LeftControl);
+	usb__kb__set_key(false, KEYBOARD__z_Z);
+}
+void R(m_ctrlZ)(void) {}
 
 void keys__press__m_cad(void) {
     usb__kb__set_key(true, KEYBOARD__LeftAlt);
@@ -344,50 +388,38 @@ KEYS__LAYER__PUSH_POP(9, 9);
 
 // ----------------------------------------------------------------------------
 
-/**                                       functions/KF(Space_Tap_Key)/description
- * Press the given keycode, and also press "capslock" if this is the second
- * consecutive time this function has been called with `pressed == true`.
- *
- * Meant to be used with the left and right "shift" keys.
+/**                                       functions/KF(ctrlL2l1)/description
+ * courtesty to Ben Blazak! http://geekhack.org/index.php?topic=45211.msg1033526#msg1033526
+ * Double tapping the ctrl key assigned to this key code will switch to layer 1
  */
-bool space_tap_key__held;
-bool space_tap_key__has_been_released;
+// counts the number of times the ctrl key was hit
+uint8_t ctrl_key__counter = 0;
 
- // this happens after 40 cycles ~= 200 milliseconds
-// (whether the key has been released or not)
-void KF(space_tap_key)(void){
-    if (!space_tap_key__has_been_released) {
-        space_tap_key__held = true;
-        // perform the "held" press function
-        P(lpupo1l1);
-    }
+ // this happens 40 cycles ~= 200 milliseconds after ctrl key is released first time
+ // resets the counter to prevent activating the layer after a longer period of time
+void KF(ctrlL2l1)(void){
+	ctrl_key__counter = 0;
 }
 
-// this happens first
-void P(space_tap_key)(void){
-    space_tap_key__held = false;
-    space_tap_key__has_been_released = false;
-    timer__schedule_cycles(40, &KF(space_tap_key));
+// this fires when ctrl key is pressed
+void P(ctrlL2l1)(void){
+    ctrl_key__counter++;
+	if (ctrl_key__counter == 1) { // ctrl key works on first press
+		KF(press)(KEYBOARD__LeftControl);
+	} else { // on any subsequent press within the scheduled cycles, the layer key is activated
+		P(lpupo1l1)();
+	}
 }
 
 // this happens when the key is released
-// (whether the scheduled function has run or not)
-// (but the scheduled function is not occurring within an interrupt, so we
-//  don't have to worry about race conditions inside this one)
-void R(space_tap_key)(void){
-    if (space_tap_key__held) {
-        // release the "held" function
-        R(lpupo1l1);
-    } else {
-        // press the "tapped" function
-        KF(press)(KEYBOARD__Spacebar);
-        // (send the report)
-        usb__kb__send_report();
-        // then release it
-        KF(release)(KEYBOARD__Spacebar);
-    }
-    space_tap_key__has_been_released = true;
+void R(ctrlL2l1)(void){
+	if (ctrl_key__counter == 1) { // ctrl was hit just once, so release it
+		KF(release)(KEYBOARD__LeftControl);
+		timer__schedule_cycles(40, &KF(ctrlL2l1)); // start the timer; if ctrl not hit again within these cycles, the counter is reset
+	} else { // ctrl key was hit more than once and was not released; release the layer key and reset the counter
+		R(lpupo1l1)();
+		ctrl_key__counter = 0;
+	}
 }
 // ----------------------------------------------------------------------------
 #endif  // ERGODOX_FIRMWARE__KEYBOARD__ERGODOX__LAYOUT__COMMON__KEYS__C__H
-
